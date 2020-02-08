@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9199963b-2251-42d2-ad16-693da2f0f5bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/de_neu.dic" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Fresh-Idee-B" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
@@ -118,6 +124,10 @@
       <workItem from="1581108200692" duration="455000" />
       <workItem from="1581108779083" duration="5401000" />
       <workItem from="1581159771113" duration="7574000" />
+      <workItem from="1581173096951" duration="650000" />
+      <workItem from="1581174264677" duration="55000" />
+      <workItem from="1581174367200" duration="25000" />
+      <workItem from="1581179656349" duration="711000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit attempt no.2">
       <created>1580073951355</created>
@@ -189,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581168335674</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="remove .idea">
+      <created>1581168378340</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581168378340</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,12 +263,12 @@
     </state>
     <state x="543" y="289" key="EditFileWatcherDialog/0.0.1739.939@0.0.1739.939" timestamp="1580123428388" />
     <state x="599" y="320" key="EditFileWatcherDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580072967732" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1581164244227">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="670" y="252" key="FileChooserDialogImpl" timestamp="1581174385383">
+      <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="670" y="252" key="FileChooserDialogImpl/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1580294626658" />
     <state x="2506" y="271" key="FileChooserDialogImpl/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580368904089" />
-    <state x="670" y="252" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1580123343289" />
+    <state x="670" y="252" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1581174385383" />
     <state x="740" y="279" key="FileChooserDialogImpl/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581164244227" />
     <state x="181" y="130" width="1443" height="874" key="SettingsEditor" timestamp="1581164248903">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -269,20 +286,22 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="625" y="318" key="cloudConfig.SelfSettingsDialog/0.0.1739.939@0.0.1739.939" timestamp="1580123286600" />
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581167857334">
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581181233756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1580310709944" />
     <state x="2450" y="332" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580368840386" />
-    <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1581108233900" />
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581167857334" />
-    <state x="771" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581168279448">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1581174370976" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581181233756" />
+    <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581173137452">
+      <screen x="0" y="0" width="1739" height="939" />
     </state>
+    <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939@0.0.1739.939" timestamp="1581173137452" />
     <state x="771" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581168279448" />
-    <state x="694" y="324" key="git4idea.merge.GitPullDialog" timestamp="1581167939381">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="629" y="293" key="git4idea.merge.GitPullDialog" timestamp="1581174293278">
+      <screen x="0" y="0" width="1739" height="939" />
     </state>
+    <state x="629" y="293" key="git4idea.merge.GitPullDialog/0.0.1739.939@0.0.1739.939" timestamp="1581174293278" />
     <state x="694" y="324" key="git4idea.merge.GitPullDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581167939381" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581164318621">
       <screen x="0" y="0" width="1920" height="1040" />
