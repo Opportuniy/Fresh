@@ -4,11 +4,16 @@
 nav {
   background-color : base.$color_background;
   padding          : 2vh 0;
+  position         : sticky;
+  top              : 0;
+  z-index          : 100;
   }
 
 .nav_row {
-  justify-content : space-evenly;
-  list-style-type : none;
+  height                  : 6vh;
+  -webkit-justify-content : space-around;
+  justify-content         : space-evenly;
+  list-style-type         : none;
 
   a {
 	color           : base.$color_gray;
@@ -16,4 +21,16 @@ nav {
 	font-weight     : bold;
 	text-decoration : none;
 	}
+
+  li {
+	height : 100%;
+	width  : auto;
+	//min-width : 0;
+	}
+
+  .logo {
+	height : 6vh;
+	width  : auto;
+	}
   }
+

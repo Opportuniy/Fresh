@@ -42,9 +42,10 @@ footer {
 
 .grid_conatiner {
   display               : grid;
-  grid-template-areas   : "head" "nav" "main" "foot";
-  grid-template-columns : 1fr;
-  grid-template-rows    : 30vh 10vh 57vh 3vh;
+  -ms-grid-columns      : auto 900px auto;
+  grid-template-areas   : "nav nav nav" "head head head" ". main ." ". foot .";
+  grid-template-columns : auto 900px auto;
+  grid-template-rows    : 10vh 40vh 60vh 90vh;
   }
 
 //.grid_desktop {
@@ -85,7 +86,6 @@ footer {
 
 #mainframe {
   margin     : auto;
-  max-width  : 900px;
   min-height : 100vh;
   }
 

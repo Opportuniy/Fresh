@@ -4,11 +4,12 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	<link href="CSS/layout.css" rel="stylesheet" type="text/css">
-	<link href="CSS/header.css" rel="stylesheet" type="text/css">
-	<link href="CSS/navigation.css" rel="stylesheet" type="text/css">
-	<link href="CSS/main.css" rel="stylesheet" type="text/css">
-	<link href="CSS/footer.css" rel="stylesheet" type="text/css">
+	<link href="css/layout.css" rel="stylesheet" type="text/css">
+	<link href="css/animations.css" rel="stylesheet" type="text/css">
+	<link href="css/header.css" rel="stylesheet" type="text/css">
+	<link href="css/navigation.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/footer.css" rel="stylesheet" type="text/css">
 
 
 	<title>FRESH - jung, bunt, aktiv</title>
@@ -17,49 +18,12 @@
 </head>
 <body>
 
+
 <div class="grid_conatiner" id="mainframe">
-	<header class="flex_column">
-		<div class="flex_row head_row">
-			<div class="burger_menu">
-				III
-			</div>
-			<div class="title">
-				<!--				<img src="">-->
-				<h1 class="textstyle_heading">F.R.E.S.H. - jung, bunt, aktiv</h1>
-			</div>
 
-			<div class="sm_banner flex_row">
-				<div class="sm_link_container">
-					<a class="facebook" href="facebook.de">
-						<svg focusable="false"
-							 viewBox="0 0 512 512"
-							 xmlns="http://www.w3.org/2000/svg"
-						>
-							<path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
-								  fill="currentColor"
-							/>
-						</svg>
-					</a>
-				</div>
-				<div class="sm_link_container">
-					<a class="instagram" href="instagram.de">
-						<svg focusable="false"
-							 viewBox="0 0 448 512"
-							 xmlns="http://www.w3.org/2000/svg"
-						>
-							<path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-								  fill="currentColor"
-							/>
-						</svg>
-					</a>
-				</div>
-			</div>
-		</div>
-	</header>
-
-
-	<nav class="textstyle_heading mobile_hidden">
+	<nav class="textstyle_heading">
 		<ul class="flex_row nav_row">
+			<li><img alt="Fresh Logo" class="logo" src="pictures/logo_white.png"></li>
 			<li><a class="hover_blue" href="wer.html">.wer</a></li>
 			<li><a class="hover_magenta" href="wofuer.html">.was</a></li>
 			<li><a class="hover_blue" href="blog.html">.blog</a></li>
@@ -68,11 +32,108 @@
 		</ul>
 	</nav>
 
+	<header class="flex_column">
+		<div class="logo_overlay">
+			<div class="head_text flipInY animated">
+				<h3>Stadtrat 2020</h3>
+				<h2>Fresher Wind für Moosburg!</h2>
+				<p> Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus
+					at semper. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum. </p>
+				<a class="" href="#service">Mehr zu uns!</a></div>
+		</div>
+	</header>
+
+
 	<footer>
-		<ul class="flex_row foot_row">
-			<li><a class="hover_blue" href="kontakt.html">.kontakt</a></li>
-			<li><a class="hover_magenta" href="impressum.html">.impressum</a></li>
-		</ul>
+		<section class="main-section contact" id="contact">
+			<div class="contact_section">
+				<h2>Contact Us</h2>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="contact_block">
+							<div class="contact_block_icon rollIn animated wow"><span><i class="fa-home"></i></span>
+							</div>
+							<span> 308 Negra Arroyo Lane, <br>
+              Albuquerque, NM, 87104 </span></div>
+					</div>
+					<div class="col-lg-4">
+						<div class="contact_block">
+							<div class="contact_block_icon icon2 rollIn animated wow">
+								<span><i class="fa-phone"></i></span></div>
+							<span> 1-800-BOO-YAHH </span></div>
+					</div>
+					<div class="col-lg-4">
+						<div class="contact_block">
+							<div class="contact_block_icon icon3 rollIn animated wow">
+								<span><i class="fa-pencil"></i></span></div>
+							<span> <a href="mailto:fresh.moosburg@gmail.com">fresh.moosburg@gmail.com</a> </span></div>
+					</div>
+				</div>
+			</div>
+			<!--<div class="row">
+				<div class="col-lg-6 wow fadeInLeft">
+					<div class="contact-info-box address clearfix">
+						<h3>Don’t be shy. Say hello!</h3>
+						<p>Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam,
+						   risus at semper. Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et.
+						   Maecen aliquam, risus at semper.</p>
+						<p>Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquampor
+						   id.</p>
+					</div>
+				</div>
+				<div class="form">
+					<div id="sendmessage">Your message has been sent. Thank you!</div>
+					<div id="errormessage"></div>
+					<form action="" class="contactForm" method="post" role="form">
+						<div class="form-group">
+							<input class="form-control input-text"
+								   data-msg="Please enter at least 4 chars"
+								   data-rule="minlen:4"
+								   id="name"
+								   name="name"
+								   placeholder="Your Name"
+								   type="text"
+							/>
+							<div class="validation"></div>
+						</div>
+						<div class="form-group">
+							<input class="form-control input-text"
+								   data-msg="Please enter a valid email"
+								   data-rule="email"
+								   id="email"
+								   name="email"
+								   placeholder="Your Email"
+								   type="email"
+							/>
+							<div class="validation"></div>
+						</div>
+						<div class="form-group">
+							<input class="form-control input-text"
+								   data-msg="Please enter at least 8 chars of subject"
+								   data-rule="minlen:4"
+								   id="subject"
+								   name="subject"
+								   placeholder="Subject"
+								   type="text"
+							/>
+							<div class="validation"></div>
+						</div>
+						<div class="form-group">
+								<textarea class="form-control"
+										  data-msg="Please write something for us"
+										  data-rule="required"
+										  name="message"
+										  placeholder="Message"
+										  rows="5"
+								></textarea>
+							<div class="validation"></div>
+						</div>
+
+						<button class="btn input-btn" type="submit">SEND MESSAGE</button>
+					</form>
+				</div>
+			</div>-->
+		</section>
 	</footer>
 </div>
 </body>

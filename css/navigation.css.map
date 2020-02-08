@@ -1,8 +1,1 @@
-{
-  "version": 3,
-  "sourceRoot": "",
-  "sources": ["_base.scss", "navigation.scss"],
-  "names": [],
-  "mappings": "AAAQ;AACA;ACER;EACE,kBDD6B;ECE7B;;;AAGF;EACE;EACA;;AAEA;EACD,ODN8B;ECO9B;EACA;EACA",
-  "file": "navigation.css"
-}
+{"version":3,"sourceRoot":"","sources":["_base.scss","navigation.scss"],"names":[],"mappings":"AAAQ;AACA;ACER;EACE,kBDD6B;ECE7B;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;AAEA;EACD,ODX8B;ECY9B;EACA;EACA;;AAGC;EACD;EACA;;AAIC;EACD;EACA","file":"navigation.css"}
