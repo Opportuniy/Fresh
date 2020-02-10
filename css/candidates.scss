@@ -34,3 +34,26 @@
   margin-top       : 1vh;
   width            : 92%;
   }
+
+
+.candidate_description {
+  background-color           : white;
+  border-bottom-left-radius  : 1rem;
+  border-bottom-right-radius : 1rem;
+  grid-column-end            : 3;
+  grid-column-start          : 1;
+  grid-row                   : 2;
+  max-width                  : 100%;
+  padding                    : 1rem;
+  position                   : relative;
+  width                      : 85%;
+
+
+  @media screen and (min-width : 600px) {
+	grid-column-end : 4;
+	}
+
+  @media screen and (min-width : 600px) {
+	grid-column-end : 5;
+	}
+  }
