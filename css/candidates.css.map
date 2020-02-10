@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": ["_base.scss", "candidates.scss"],
+  "names": [],
+  "mappings": "AAAQ;AACA;ACCR;EACE,kBDCqB;ECCrB;EACA;EACA;EACA;EAEA;;AACA;EATF;IAUC;;;AAEC;EAZF;IAaC;;;AAGC;EACD;;;AAKD;EACE;EACA;;;AAGF;EACE,kBD3BqB;EC4BrB,ODxBqB;ECyBrB;EACA;EACA",
+  "file": "candidates.css"
+}
