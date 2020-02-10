@@ -21,8 +21,5 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <enabled-global>
-      <option value="Sass" />
-    </enabled-global>
   </component>
 </project>

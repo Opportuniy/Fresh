@@ -1,15 +1,36 @@
 @use "base";
 
 #candidates {
+  background-color      : base.$color_steel_blue;
 
-  background-color : red;
-  flex-flow        : wrap;
+  display               : grid;
+  grid-column-gap       : 2vw;
+  grid-row-gap          : 2vh;
+  grid-template-columns : 1fr 1fr;
 
-  justify-content  : space-evenly;
-
-  img {
-	height : 250px;
-	width  : 250px;
+  justify-items         : center;
+  @media screen and (min-width : base.$breakpoint_tablet) {
+	grid-template-columns : 1fr 1fr 1fr;
+	}
+  @media screen and (min-width : base.$breakpoint_desktop) {
+	grid-template-columns : 1fr 1fr 1fr 1fr;
 	}
 
+  img {
+	width : 100%;
+
+	}
+  }
+
+.candidate {
+  max-width : 200px;
+  width     : 80%;
+  }
+
+.candidate_text_row {
+  background-color : base.$color_background;
+  color            : base.$color_gray;
+  margin           : auto;
+  margin-top       : 1vh;
+  width            : 92%;
   }

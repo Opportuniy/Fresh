@@ -18,13 +18,20 @@
 	}
 
 
-  .flex_row {
-	height          : 60%;
-	justify-content : space-evenly;
+  .overview_grid {
+	display               : grid;
+	grid-column-gap       : 2vw;
+	grid-template-columns : 1fr;
+	justify-content       : space-evenly;
+	padding-bottom        : 5vh;
+	padding-left          : 2vw;
+	padding-right         : 2vw;
+	@media screen and (min-width : base.$breakpoint_tablet) {
+	  grid-template-columns : 1fr 1fr 1fr;
+	  }
 
 	div {
-	  height : 100%;
-	  width  : 25%;
+	  //height : 100%;
 	  }
 	}
 

@@ -16,17 +16,21 @@ body {
 
 nav {
   grid-area: nav;
-  height: 10vh;
+  height: 5vh;
+}
+@media screen and (min-width: 900px) {
+  nav {
+    height: 10vh;
+  }
 }
 
 header {
   grid-area: head;
-  height: 40vh;
+  height: 60vh;
 }
 
 #overview {
   grid-area: overview;
-  height: 30vh;
 }
 
 #contact {
@@ -57,9 +61,16 @@ footer {
 
 .grid_conatiner {
   display: grid;
-  -ms-grid-columns: auto 900px auto;
-  grid-template-areas: "nav nav nav" "head head head" ". overview ." ". candidates ." ". cont ." ". contact ." "foot foot foot";
-  grid-template-columns: auto 1200px auto;
+  -ms-grid-columns: auto;
+  grid-template-areas: "nav" "head" "overview" "candidates" "cont" "contact" "foot";
+  grid-template-columns: auto;
+}
+@media screen and (min-width: 900px) {
+  .grid_conatiner {
+    -ms-grid-columns: auto 900px auto;
+    grid-template-areas: "nav nav nav" "head head head" ". overview ." ". candidates ." ". cont ." ". contact ." "foot foot foot";
+    grid-template-columns: auto 900px auto;
+  }
 }
 
 .hover_blue:hover {
@@ -83,6 +94,10 @@ footer {
 
 .textstyle_heading {
   font-family: "Barlow", sans-serif;
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=layout.css.map */
