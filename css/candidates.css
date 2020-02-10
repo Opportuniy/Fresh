@@ -10,18 +10,6 @@
   justify-items         : center;
   }
 
-@media screen and (min-width : 600px) {
-  #candidates {
-    grid-template-columns : 1fr 1fr 1fr;
-    }
-  }
-
-@media screen and (min-width : 900px) {
-  #candidates {
-    grid-template-columns : 1fr 1fr 1fr 1fr;
-    }
-  }
-
 #candidates img {
   width : 100%;
   }
@@ -29,6 +17,7 @@
 .candidate {
   max-width : 200px;
   width     : 80%;
+  cursor: pointer;
   }
 
 .candidate_text_row {
@@ -38,5 +27,36 @@
   margin-top       : 1vh;
   width            : 92%;
   }
+
+  .candidateDescription {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+    max-width: 100%;
+    width: 85%;
+    position: relative;
+    padding: 1rem;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+
+  @media screen and (min-width : 600px) {
+    #candidates {
+      grid-template-columns : 1fr 1fr 1fr;
+      }
+    .candidateDescription {
+      grid-column-end: 4;
+      }
+    }
+  
+  @media screen and (min-width : 900px) {
+    #candidates {
+      grid-template-columns : 1fr 1fr 1fr 1fr;
+      }
+    .candidateDescription {
+      grid-column-end: 5;
+      }
+    }
 
 /*# sourceMappingURL=candidates.css.map */
