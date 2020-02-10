@@ -1,4 +1,5 @@
 @use 'base';
+@use 'com_heights';
 
 * {
   font-family : base.$font_family_text;
@@ -6,8 +7,20 @@
   padding     : 0;
   }
 
-*::selection {
-  background : base.$color_turquoise;
+//:target::before {
+//  content : "";
+//  display : block;
+//  height  : 10vh; /* fixed header height*/
+//  margin  : -10vh 0 0; /* negative fixed header height */
+//  @media screen and (min-width : base.$breakpoint_desktop) {
+//    height : 15vh; /* fixed header height*/
+//    margin : -15vh 0 0; /* negative fixed header height */
+//    }
+//  }
+
+#mainframe {
+  margin     : auto;
+  min-height : 100vh;
   }
 
 body {
@@ -16,27 +29,24 @@ body {
 
 nav {
   grid-area : nav;
-
-  height    : 5vh;
+  height    : com_heights.$h_nav_m;
   @media screen and (min-width : base.$breakpoint_desktop) {
-    height : 10vh;
+    height : com_heights.$h_nav_d;
     }
   }
 
 header {
   grid-area : head;
-  height    : 60vh;
+  height    : com_heights.$h_head_m;
+  @media screen and (min-width : base.$breakpoint_desktop) {
+    height : com_heights.$h_head_d;
+    }
   }
 
 
 #overview {
   grid-area : overview;
-  //height    : 40vh;
   }
-
-//main {
-//  grid-area : main;
-//  }
 
 #contact {
   grid-area : contact;
@@ -54,6 +64,19 @@ footer {
   grid-area : foot;
   }
 
+.grid_conatiner {
+  display               : grid;
+  -ms-grid-columns      : auto;
+  grid-template-areas   : "nav" "head" "overview" "candidates" "cont" "contact" "foot";
+  grid-template-columns : auto;
+
+  @media screen and (min-width : base.$breakpoint_desktop) {
+    -ms-grid-columns      : auto base.$breakpoint_desktop auto;
+    grid-template-areas   : "nav nav nav" "head head head" ". overview ." ". candidates ." ". cont ." ". contact ." "foot foot foot";
+    grid-template-columns : auto base.$breakpoint_desktop auto;
+    }
+  }
+
 .flex_column {
   display        : flex;
   flex-direction : column;
@@ -64,48 +87,6 @@ footer {
   flex-direction : row;
   }
 
-.grid_conatiner {
-  display               : grid;
-
-  -ms-grid-columns      : auto;
-  grid-template-areas   : "nav" "head" "overview" "candidates" "cont" "contact" "foot";
-  grid-template-columns : auto;
-
-  @media screen and (min-width : base.$breakpoint_desktop) {
-    -ms-grid-columns      : auto base.$breakpoint_desktop auto;
-    grid-template-areas   : "nav nav nav" "head head head" ". overview ." ". candidates ." ". cont ." ". contact ." "foot foot foot";
-    grid-template-columns : auto base.$breakpoint_desktop auto;
-    }
-  //grid-template-rows    : 10vh 40vh 40vh 40vh auto 20vh 5vh;
-  }
-
-//.grid_desktop {
-//  grid-template-columns : 1fr 1fr;
-//  grid-template-rows  : 30vh 10vh 50vh 10vh;
-//  grid-template-areas : "head head" "nav nav" "main main" "foot foot";
-//  @media screen and (max-width : 700px) {
-//
-//	}
-//  }
-//
-//.grid_mobile {
-//  @media screen and (max-width : 700px) {
-//	grid-template-rows : 30vh 50vh 10vh;
-//	}
-//  }
-//
-//.grid_mobile_menu_hidden {
-//  @media screen and (max-width : 700px) {
-//	grid-template-areas : "head head" "main main" "foot foot";
-//	}
-//  }
-//
-//.grid_mobile_menu_shown {
-//  @media screen and (max-width : 700px) {
-//	grid-template-areas : "nav head" "nav main" "nav foot";
-//	}
-//  }
-
 
 .hover_blue:hover {
   color : base.$color_turquoise;
@@ -115,13 +96,15 @@ footer {
   color : base.$color_magenta;
   }
 
-#mainframe {
-  margin     : auto;
-  min-height : 100vh;
-  }
 
 .mobile_hidden {
   @media screen and (max-width : 700px) {
+    display : none;
+    }
+  }
+
+.desktop_hidden {
+  @media screen and (min-width : 700px) {
     display : none;
     }
   }
@@ -134,3 +117,10 @@ footer {
   display : none;
   }
 
+*::selection {
+  background : base.$color_turquoise;
+  }
+
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection {
+  background : base.$color_magenta;
+  }

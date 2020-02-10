@@ -50,7 +50,6 @@
     opacity           : 1;
     }
   }
-
 .flipInY {
   -webkit-animation-name      : flipInY;
   animation-name              : flipInY;

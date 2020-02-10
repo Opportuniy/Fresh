@@ -2,17 +2,24 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 nav {
   background-color: #131B21;
-  padding: 2vh 0;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
 .nav_row {
-  height: 6vh;
+  align-items: center;
+  height: 7.5vh;
   -webkit-justify-content: space-around;
   justify-content: space-evenly;
   list-style-type: none;
+  margin-top: 3.75vh;
+}
+@media screen and (min-width: 900px) {
+  .nav_row {
+    height: 10vh;
+    margin-top: 5vh;
+  }
 }
 .nav_row a {
   color: #EEEEEE;
@@ -21,12 +28,15 @@ nav {
   text-decoration: none;
 }
 .nav_row li {
-  height: 100%;
-  width: auto;
+  max-height: 100%;
 }
 .nav_row .logo {
-  height: 6vh;
-  width: auto;
+  height: 7.5vh;
+}
+@media screen and (min-width: 900px) {
+  .nav_row .logo {
+    height: 10vh;
+  }
 }
 
 /*# sourceMappingURL=navigation.css.map */

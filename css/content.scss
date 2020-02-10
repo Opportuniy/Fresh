@@ -6,17 +6,23 @@
   padding          : 5%;
 
   h2 {
-	padding-bottom : 2vh;
-	padding-top    : 2vh;
-	text-align     : center;
+	padding-top : 2vh;
+	text-align  : center;
 	}
 
-  h3, h4 {
+  h3 {
+	padding-bottom : 1vh;
+	padding-top    : 3vh;
+	}
+
+  h4 {
 	padding-bottom : 1vh;
 	padding-top    : 1vh;
 	}
 
   div {
-	padding-left : 5vw;
+	padding-bottom : 5vh;
+	padding-left   : 10%;
+	padding-right  : 10%;
 	}
   }
