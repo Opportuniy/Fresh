@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9199963b-2251-42d2-ad16-693da2f0f5bb" name="Default Changelist" comment="program completed&#10;&#10;fixed ID-navigation&#10;&#10;nav correction">
-      <change afterPath="$PROJECT_DIR$/css/_com_heights.scss" afterDir="false" />
+    <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/animations.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/content.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/content.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/content.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navigation.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/overview.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/overview.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/overview.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/overview.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +65,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pictures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pschweitzer\Dropbox\FRESH\Fresh\pictures" />
       <recent name="C:\Users\Patrick\Dropbox\FRESH\Fresh\pictures" />
     </key>
   </component>
@@ -147,7 +137,7 @@
       <workItem from="1581273948103" duration="11602000" />
       <workItem from="1581315683420" duration="66000" />
       <workItem from="1581318592793" duration="1634000" />
-      <workItem from="1581321060058" duration="11769000" />
+      <workItem from="1581321060058" duration="8731000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit attempt no.2">
       <created>1580073951355</created>
@@ -254,14 +244,7 @@
       <option name="project" value="LOCAL" />
       <updated>1581329461837</updated>
     </task>
-    <task id="LOCAL-00016" summary="placeholder image&#10;&#10;program">
-      <created>1581330646416</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1581330646416</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,15 +276,15 @@
     <MESSAGE value="neues Layout&#10;&#10;IE suckt" />
     <MESSAGE value="added candidates and content frame" />
     <MESSAGE value="Candidates and overview grid&#10;&#10;simple responsive" />
-    <MESSAGE value="placeholder image&#10;&#10;program" />
-    <option name="LAST_COMMIT_MESSAGE" value="placeholder image&#10;&#10;program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Candidates and overview grid&#10;&#10;simple responsive" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="358" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581166030032">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="324" y="129" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581336554479">
+      <screen x="0" y="0" width="1739" height="939" />
     </state>
+    <state x="324" y="129" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336554479" />
     <state x="324" y="129" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1739.939@0.0.1739.939" timestamp="1581103345348" />
     <state x="358" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581166030032" />
     <state x="641" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581109619158">
@@ -313,10 +296,10 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="542" y="59" key="CommitChangelistDialog2" timestamp="1581342824067">
+    <state x="542" y="99" key="CommitChangelistDialog2" timestamp="1581336931569">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="542" y="59" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581342824067" />
+    <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336931569" />
     <state x="2394" y="130" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313304778" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581108637287" />
     <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581315736752" />
@@ -335,17 +318,26 @@
     <state x="670" y="252" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1581174385383" />
     <state x="740" y="279" key="FileChooserDialogImpl/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581164244227" />
     <state x="2660" y="278" key="FileChooserDialogImpl/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581185705880" />
-    <state x="2101" y="129" width="1443" height="874" key="SettingsEditor" timestamp="1581192897304">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state x="167" y="83" key="MergeDialog" timestamp="1581343411651">
+      <screen x="0" y="0" width="1739" height="939" />
     </state>
+    <state x="167" y="83" key="MergeDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581343411651" />
+    <state x="583" y="189" key="MultipleFileMergeDialog" timestamp="1581343422626">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="583" y="189" key="MultipleFileMergeDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581343422626" />
+    <state x="164" y="117" width="1443" height="874" key="SettingsEditor" timestamp="1581336663772">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="164" y="117" key="SettingsEditor/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336663772" />
     <state x="2064" y="89" key="SettingsEditor/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580125356802" />
     <state x="164" y="117" key="SettingsEditor/0.0.1739.939@0.0.1739.939" timestamp="1580199487789" />
     <state x="181" y="130" width="1443" height="874" key="SettingsEditor/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581164248903" />
     <state x="2101" y="129" key="SettingsEditor/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581192897304" />
-    <state x="500" y="232" key="Vcs.Push.Dialog.v2" timestamp="1581330650055">
+    <state x="500" y="232" key="Vcs.Push.Dialog.v2" timestamp="1581336935589">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581330650055" />
+    <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336935589" />
     <state x="2358" y="251" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313327928" />
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939@0.0.1739.939" timestamp="1581108643129" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581315741318" />
@@ -361,25 +353,37 @@
     <state x="2450" y="332" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580368840386" />
     <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1581174370976" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581315683448" />
-    <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581321074012">
+    <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581343434041">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581321074012" />
+    <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581343434041" />
     <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939@0.0.1739.939" timestamp="1581173137452" />
     <state x="771" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581168279448" />
     <state x="1920" y="-1" width="1618" height="1025" key="dock-window-1" timestamp="1581182884377">
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
     <state x="1920" y="-1" width="1618" height="1025" key="dock-window-1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581182884377" />
+    <state x="653" y="187" key="git4idea.branch.GitSmartOperationDialog" timestamp="1581343351735">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="653" y="187" key="git4idea.branch.GitSmartOperationDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581343351735" />
+    <state x="657" y="275" key="git4idea.merge.GitMergeDialog" timestamp="1581343477801">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="657" y="275" key="git4idea.merge.GitMergeDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581343477801" />
     <state x="629" y="293" key="git4idea.merge.GitPullDialog" timestamp="1581174293278">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="629" y="293" key="git4idea.merge.GitPullDialog/0.0.1739.939@0.0.1739.939" timestamp="1581174293278" />
     <state x="694" y="324" key="git4idea.merge.GitPullDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581167939381" />
-    <state x="564" y="203" width="672" height="613" key="search.everywhere.popup" timestamp="1581322013812">
+    <state x="667" y="381" key="git4idea.ui.GitStashDialog" timestamp="1581343497510">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="564" y="203" width="672" height="613" key="search.everywhere.popup/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581322013812" />
+    <state x="667" y="381" key="git4idea.ui.GitStashDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581343497510" />
+    <state x="564" y="203" width="672" height="613" key="search.everywhere.popup" timestamp="1581336572902">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="564" y="203" width="672" height="613" key="search.everywhere.popup/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336572902" />
     <state x="564" y="203" width="672" height="613" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1580215124951" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581164318621" />
     <state x="2543" y="224" width="672" height="678" key="search.everywhere.popup/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581184921564" />

@@ -27,8 +27,8 @@
 
 @media screen and (min-width : 600px) {
   #overview .overview_grid {
-	grid-template-columns : 1fr 1fr 1fr;
-	}
+    grid-template-columns : 1fr 1fr 1fr;
+    }
   }
 
 /*# sourceMappingURL=overview.css.map */
