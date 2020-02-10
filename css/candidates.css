@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+#candidates {
+  background-color      : #2F4859;
+  display               : grid;
+  grid-column-gap       : 2vw;
+  grid-row-gap          : 2vh;
+  grid-template-columns : 1fr 1fr;
+  justify-items         : center;
+  }
+
+@media screen and (min-width : 600px) {
+  #candidates {
+    grid-template-columns : 1fr 1fr 1fr;
+    }
+  }
+
+@media screen and (min-width : 900px) {
+  #candidates {
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    }
+  }
+
+#candidates img {
+  width : 100%;
+  }
+
+.candidate {
+  max-width : 200px;
+  width     : 80%;
+  }
+
+.candidate_text_row {
+  background-color : #131B21;
+  color            : #EEEEEE;
+  margin           : auto;
+  margin-top       : 1vh;
+  width            : 92%;
+  }
+
+/*# sourceMappingURL=candidates.css.map */
