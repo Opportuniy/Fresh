@@ -1,0 +1,40 @@
+@use 'base';
+
+#overview {
+
+  background-color : base.$color_steel_blue;
+
+  color            : base.$color_gray;
+
+
+  h2 {
+	padding    : 3vh 0;
+	text-align : center;
+	}
+
+  h3 {
+	padding    : 1vh 0 2vh 0;
+	text-align : center;
+	}
+
+
+  .flex_row {
+	height          : 60%;
+	justify-content : space-evenly;
+
+	div {
+	  height : 100%;
+	  width  : 25%;
+	  }
+	}
+
+  }
+
+#jung {
+  }
+
+#bunt {
+  }
+
+#aktiv {
+  }

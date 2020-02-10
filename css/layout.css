@@ -11,19 +11,34 @@
 }
 
 body {
-  background-color: black;
-}
-
-header {
-  grid-area: head;
+  background-color: #131B21;
 }
 
 nav {
   grid-area: nav;
+  height: 10vh;
 }
 
-main {
-  grid-area: main;
+header {
+  grid-area: head;
+  height: 40vh;
+}
+
+#overview {
+  grid-area: overview;
+  height: 30vh;
+}
+
+#contact {
+  grid-area: contact;
+}
+
+#content {
+  grid-area: cont;
+}
+
+#candidates {
+  grid-area: candidates;
 }
 
 footer {
@@ -43,9 +58,8 @@ footer {
 .grid_conatiner {
   display: grid;
   -ms-grid-columns: auto 900px auto;
-  grid-template-areas: "nav nav nav" "head head head" ". main ." ". foot .";
-  grid-template-columns: auto 900px auto;
-  grid-template-rows: 10vh 40vh 60vh 90vh;
+  grid-template-areas: "nav nav nav" "head head head" ". overview ." ". candidates ." ". cont ." ". contact ." "foot foot foot";
+  grid-template-columns: auto 1200px auto;
 }
 
 .hover_blue:hover {

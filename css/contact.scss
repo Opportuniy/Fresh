@@ -1,0 +1,25 @@
+@use 'base';
+
+#contact {
+  background-color : base.$color_steel_blue;
+  color            : white;
+  justify-content  : space-evenly;
+  padding-top      : 5vh;
+  text-align       : center;
+
+  img {
+	border-radius : 50%;
+	display       : block;
+	margin        : auto;
+	width         : 30%;
+	}
+
+  a {
+	color           : base.$color_gray;
+	text-decoration : none;
+	}
+
+  .image_text {
+	margin-top : 1vh;
+	}
+  }

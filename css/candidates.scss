@@ -1,0 +1,15 @@
+@use "base";
+
+#candidates {
+
+  background-color : red;
+  flex-flow        : wrap;
+
+  justify-content  : space-evenly;
+
+  img {
+	height : 250px;
+	width  : 250px;
+	}
+
+  }

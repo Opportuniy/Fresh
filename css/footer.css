@@ -5,16 +5,7 @@ footer {
   }
 
 .foot_row {
-  align-items: center;
-  height: 100%;
   justify-content: space-evenly;
-  list-style-type: none;
-  width: 100%;
-}
-.foot_row a {
-  color: #EEEEEE;
-  font-weight: bold;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=footer.css.map */

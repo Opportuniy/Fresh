@@ -3,6 +3,6 @@
   "sourceRoot": "",
   "sources": ["_base.scss", "footer.scss"],
   "names": [],
-  "mappings": "AAAQ;AACA;ACMR;EACE,kBDJ6B;;;ACO/B;EACE;EACA;EACA;EACA;EACA;;AAEA;EACD,ODZ8B;ECa9B;EACA",
+  "mappings": "AAAQ;AACA;ACMR;EACE,kBDJ6B;;;ACQ/B;EACE",
   "file": "footer.css"
 }
