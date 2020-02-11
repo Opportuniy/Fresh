@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pictures/icon_fb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/icon_insta.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/icon_mail.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animations.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/candidates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/candidates.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/candidates.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/overview.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/overview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/overview.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/overview.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/facebook-brands.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/instagram-brands.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/logo_white.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,6 +327,10 @@
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581108637287" />
     <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581315736752" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1581449191460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581449191460" />
     <state x="599" y="320" key="EditFileWatcherDialog" timestamp="1581362238677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -428,6 +421,10 @@
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939@0.0.1739.939" timestamp="1581108643129" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581315741318" />
     <state x="2472" y="256" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193071019" />
+    <state x="681" y="258" key="VcsDiffUtil.ChangesDialog" timestamp="1581449165292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="258" key="VcsDiffUtil.ChangesDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581449165292" />
     <state x="625" y="318" key="cloudConfig.SelfSettingsDialog" timestamp="1580123286600">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -439,12 +436,12 @@
     <state x="2450" y="332" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580368840386" />
     <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1581174370976" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581435743721" />
-    <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581343434041">
-      <screen x="0" y="0" width="1739" height="939" />
+    <state x="771" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581449082820">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581343434041" />
     <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939@0.0.1739.939" timestamp="1581173137452" />
-    <state x="771" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581168279448" />
+    <state x="771" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581449082820" />
     <state x="1920" y="-1" width="1618" height="1025" key="dock-window-1" timestamp="1581182884377">
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
@@ -457,11 +454,11 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="657" y="275" key="git4idea.merge.GitMergeDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581348921308" />
-    <state x="629" y="293" key="git4idea.merge.GitPullDialog" timestamp="1581174293278">
-      <screen x="0" y="0" width="1739" height="939" />
+    <state x="694" y="324" key="git4idea.merge.GitPullDialog" timestamp="1581449093412">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="293" key="git4idea.merge.GitPullDialog/0.0.1739.939@0.0.1739.939" timestamp="1581174293278" />
-    <state x="694" y="324" key="git4idea.merge.GitPullDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581167939381" />
+    <state x="694" y="324" key="git4idea.merge.GitPullDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581449093412" />
     <state x="667" y="381" key="git4idea.ui.GitStashDialog" timestamp="1581343497510">
       <screen x="0" y="0" width="1739" height="939" />
     </state>

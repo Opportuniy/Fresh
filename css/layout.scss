@@ -28,10 +28,10 @@ body {
   }
 
 nav {
-  grid-area : nav;
-  height    : com_heights.$h_nav_m;
+  grid-area  : nav;
+  min-height : com_heights.$h_nav_m;
   @media screen and (min-width : base.$breakpoint_desktop) {
-	height : com_heights.$h_nav_d;
+	min-height : com_heights.$h_nav_d;
 	}
   }
 
@@ -113,13 +113,19 @@ footer {
 
 
 .mobile_hidden {
-  @media screen and (max-width : 700px) {
+  @media screen and (max-width : base.$breakpoint_tablet) {
+	display : none;
+	}
+  }
+
+.tablet_hidden {
+  @media screen and (min-width : base.$breakpoint_tablet) and (max-width : base.$breakpoint_desktop) {
 	display : none;
 	}
   }
 
 .desktop_hidden {
-  @media screen and (min-width : 700px) {
+  @media screen and (min-width : base.$breakpoint_desktop) {
 	display : none;
 	}
   }
@@ -138,4 +144,8 @@ footer {
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection {
   background : base.$color_magenta;
+  }
+
+h1, h2, h3, h4, h5 {
+  text-transform : uppercase;
   }

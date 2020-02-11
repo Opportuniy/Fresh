@@ -11,21 +11,72 @@ nav {
 
 .nav_row {
   align-items             : center;
+  display                 : flex;
+  flex-direction          : column;
   height                  : com_heights.$h_nav_m / 2;
   -webkit-justify-content : space-around;
   justify-content         : space-evenly;
-  list-style-type         : none;
   margin-top              : com_heights.$h_nav_m / 4;
   @media screen and (min-width : base.$breakpoint_desktop) {
-	height     : com_heights.$h_nav_d / 2;
-	margin-top : com_heights.$h_nav_d / 4;
+	flex-direction : row;
+	height         : com_heights.$h_nav_d / 2;
+	margin-top     : com_heights.$h_nav_d / 4;
 	}
 
+  ul {
+	list-style-type : none;
+	}
+
+  .nav_left {
+	align-items    : center;
+	display        : flex;
+	flex-direction : row;
+	//-webkit-justify-content : space-around;
+	//justify-content         : space-around;
+	width          : 100%;
+	@media screen and (min-width : base.$breakpoint_desktop) {
+	  width : 20%;
+	  }
+
+	.mobile_hamburger_menu {
+	  color         : base.$color_gray;
+	  font-size     : 2.5em;
+	  padding-left  : 10vw;
+	  padding-right : 15vw;
+	  }
+	}
+
+  .nav_right {
+	align-items             : center;
+	display                 : flex;
+	flex-direction          : column;
+	-webkit-justify-content : space-around;
+	justify-content         : space-evenly;
+	width                   : 100%;
+	@media screen and (min-width : base.$breakpoint_desktop) {
+	  flex-direction : row;
+	  width          : 80%;
+	  }
+	}
+
+  .nav_hidden {
+	display : none;
+	@media screen and (min-width : base.$breakpoint_desktop) {
+	  display : block;
+	  }
+	}
+
+
   a {
-	color           : base.$color_gray;
-	font-size       : larger;
+	color           : base.$color_turquoise;
+	font-size       : 1.5em;
 	font-weight     : bold;
 	text-decoration : none;
+	text-transform  : uppercase;
+	}
+
+  a:hover {
+	color : base.$color_gray;
 	}
 
   li {

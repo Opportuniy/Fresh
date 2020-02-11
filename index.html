@@ -16,7 +16,7 @@
 	<link href="css/footer.css" rel="stylesheet" type="text/css">
 
 
-	<title>FRESH - jung, bunt, aktiv</title> 
+	<title>FRESH - jung, bunt, aktiv</title>
 	<!-- TODO PRIO Titel viel größer, sollte sehr hohe visuelle Hierarchie haben. -->
 
 
@@ -25,19 +25,31 @@
 
 
 <div class="grid_conatiner" id="mainframe">
-	<!-- TODO würde lieber default blue machen und on hover white, sichtbarkeit ist ausreichend und so entsteht ne bessere Hierarchie. -->
+	<!-- DONE würde lieber default blue machen und on hover white, sichtbarkeit ist ausreichend und so entsteht ne bessere Hierarchie. -->
 	<nav class="textstyle_heading">
 		<a class="anchor" id="nav_anchor"></a>
-		<ul class="flex_row nav_row">
-			<li><img alt="Fresh Logo" class="logo" src="pictures/logo_white.png"></li>
-			<li class="mobile_hidden"><a class="hover_blue" href="#overview_anchor">.wofür</a></li>
-			<li class="mobile_hidden"><a class="hover_magenta" href="#candidates_anchor">.wer</a></li>
-			<li class="mobile_hidden"><a class="hover_blue" href="#content_anchor">.programm</a></li>
-			<li class="mobile_hidden"><a class="hover_magenta" href="#contact_anchor">.kontakt</a></li>
-			<li class="mobile_hidden"><a class="hover_blue" href="unterstützen.html">.unterstützen</a></li>
-		</ul>
+		<div class="nav_row">
+			<ul class="nav_left" id="nav_left">
+				<li class="mobile_hamburger_menu" onclick="toggleMobileMenu()">&#x2630;</li>
+				<li><img alt="Fresh Logo" class="logo" src="pictures/logo_white.png"></li>
+			</ul>
+			<ul class="nav_right" id="nav_right">
+				<li class=" "><a class="" href="#overview_anchor">.wofür</a></li>
+				<li class=""><a class="" href="#candidates_anchor">.wer</a></li>
+				<li class=" "><a class="" href="#content_anchor">.programm</a></li>
+				<li class=" "><a class="" href="#contact_anchor">.kontakt</a></li>
+				<!--				<li class="mobile_hidden tablet_hidden"><a class="" href="unterstützen.html">.unterstützen</a></li>-->
+			</ul>
+		</div>
+
+		<script>
+			function toggleMobileMenu() {
+				let elemClassList = document.getElementById("nav_right").classList;
+				elemClassList.contains("nav_hidden") ? elemClassList.remove("nav_hidden") : elemClassList.add("nav_hidden");
+			}
+		</script>
 	</nav>
-<!-- TODO Überschriften und Header in all caps. Kann gerne auch Hardcoded sein. -->
+	<!-- TODO Überschriften und Header in all caps. Kann gerne auch Hardcoded sein. -->
 	<header class="flex_column">
 		<a class="anchor" id="head_anchor"></a>
 		<div class="logo_overlay">
@@ -77,177 +89,234 @@
 	<div id="candidates">
 		<a class="anchor" id="candidates_anchor"></a>
 		<h2>.kandidaten</h2>
-				<!-- TODO PRIO Fand das onhover/onclick overlay von den dummies eigentlich echt cool, und würde das deutlich vorziehen ggü nem Text der darunter erscheint. Overlay gern auch farbig. Ich mach heut noch ein Color Set mit Abstufungen-->
-				<!-- TODO PRIO Entweder img nahtlos oder wenigstens mit selben vertikalen/horizontalen Abstand zueinander -->
-				<!-- NOTE Fand das onhover/onclick overlay von den dummies eigentlich echt cool, und würde das deutlich vorziehen ggü nem Text der darunter erscheint. -->
+		<!-- DONE PRIO Fand das onhover/onclick overlay von den dummies eigentlich echt cool, und würde das deutlich vorziehen ggü nem Text der darunter erscheint. Overlay gern auch farbig. Ich mach heut noch ein Color Set mit Abstufungen-->
+		<!-- DONE PRIO Entweder img nahtlos oder wenigstens mit selben vertikalen/horizontalen Abstand zueinander -->
+		<!-- NOTE Fand das onhover/onclick overlay von den dummies eigentlich echt cool, und würde das deutlich vorziehen ggü nem Text der darunter erscheint. -->
 
+		<!--		TODO: small vertical grid gap??-->
 
 		<div class="candidates_grid">
 			<div class="candidate">
 				<img alt="" id="c1" onclick="toggleVisibility(1)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr1 tr1 dr1" id="desc1" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c2" onclick="toggleVisibility(2)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr1 tr1 dr1" id="desc2" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c3" onclick="toggleVisibility(3)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr2 tr1 dr1" id="desc3" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c4" onclick="toggleVisibility(4)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr2 tr2 dr1" id="desc4" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c5" onclick="toggleVisibility(5)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr3 tr2 dr2" id="desc5" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c6" onclick="toggleVisibility(6)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr3 tr2 dr2" id="desc6" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c7" onclick="toggleVisibility(7)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr4 tr3 dr2" id="desc7" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c8" onclick="toggleVisibility(8)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr4 tr3 dr2" id="desc8" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c9" onclick="toggleVisibility(9)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr5 tr3 dr3" id="desc9" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c10" onclick="toggleVisibility(10)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr5 tr4 dr3" id="desc10" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c11" onclick="toggleVisibility(11)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr6 tr4 dr3" id="desc11" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c12" onclick="toggleVisibility(12)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr6 tr4 dr3" id="desc12" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c13" onclick="toggleVisibility(13)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr7 tr5 dr4" id="desc13" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
 			<div class="candidate">
 				<img alt="" id="c14" onclick="toggleVisibility(14)" src="img/team-leader-pic2.jpg">
+				<div class="candidate_info">
+					<div class="candidate_info_text">Infos wer ich bin</div>
+				</div>
 			</div>
 			<div class="candidate_description mr7 tr5 dr4" id="desc14" style="display: none;">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 				labore
 				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
 				rebum.
-				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit
 				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 				aliquyam erat, sed diam voluptua.
 			</div>
