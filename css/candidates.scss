@@ -1,8 +1,21 @@
 @use "base";
 
 #candidates {
-  background-color      : base.$color_steel_blue;
+  background-color : base.$color_steel_blue;
+  padding-bottom   : 5vh;
 
+  img {
+	width : 100%;
+	}
+
+  h2 {
+	color      : base.$color_gray;
+	padding    : 5vh 0;
+	text-align : center;
+	}
+  }
+
+.candidates_grid {
   display               : grid;
   grid-column-gap       : 2vw;
   grid-row-gap          : 2vh;
@@ -16,10 +29,6 @@
 	grid-template-columns : 1fr 1fr 1fr 1fr;
 	}
 
-  img {
-	width : 100%;
-
-	}
   }
 
 .candidate {
@@ -27,33 +36,99 @@
   width     : 80%;
   }
 
-.candidate_text_row {
-  background-color : base.$color_background;
-  color            : base.$color_gray;
-  margin           : auto;
-  margin-top       : 1vh;
-  width            : 92%;
-  }
+//.candidate_text_row {
+////  background-color : base.$color_background;
+////  color            : base.$color_gray;
+////  margin           : auto;
+////  margin-top       : 1vh;
+////  width            : 92%;
+////  }
 
 
 .candidate_description {
-  background-color           : white;
+  background-color           : base.$color_background;
   border-bottom-left-radius  : 1rem;
   border-bottom-right-radius : 1rem;
+  color                      : base.$color_gray;
   grid-column-end            : 3;
   grid-column-start          : 1;
-  grid-row                   : 2;
   max-width                  : 100%;
   padding                    : 1rem;
   position                   : relative;
   width                      : 85%;
 
 
-  @media screen and (min-width : 600px) {
+  @media screen and (min-width : base.$breakpoint_tablet) {
 	grid-column-end : 4;
 	}
 
-  @media screen and (min-width : 600px) {
+  @media screen and (min-width : base.$breakpoint_desktop) {
 	grid-column-end : 5;
+	}
+  }
+
+.mr1 {
+  grid-row : 2;
+  }
+
+.mr2 {
+  grid-row : 3;
+  }
+
+.mr3 {
+  grid-row : 4;
+  }
+
+.mr4 {
+  grid-row : 5;
+  }
+
+.mr5 {
+  grid-row : 6;
+  }
+
+.mr6 {
+  grid-row : 7;
+  }
+
+.mr7 {
+  grid-row : 8;
+  }
+
+@media screen and (min-width : base.$breakpoint_tablet) {
+  .tr1 {
+	grid-row : 2;
+	}
+
+  .tr2 {
+	grid-row : 3;
+	}
+
+  .tr3 {
+	grid-row : 4;
+	}
+
+  .tr4 {
+	grid-row : 5;
+	}
+
+  .tr5 {
+	grid-row : 6;
+	}
+
+  }
+
+@media screen and (min-width : base.$breakpoint_desktop) {
+  .dr1 {
+	grid-row : 2;
+	}
+  .dr2 {
+	grid-row : 3;
+	}
+  .dr3 {
+	grid-row : 4;
+	}
+  .dr4 {
+	grid-row : 5;
 	}
   }

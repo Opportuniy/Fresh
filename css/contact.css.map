@@ -1,8 +1,1 @@
-{
-  "version": 3,
-  "sourceRoot": "",
-  "sources": ["_base.scss", "contact.scss"],
-  "names": [],
-  "mappings": "AAAQ;AACA;ACCR;EACE,kBDCqB;ECArB;EACA;EACA;EACA;;AAEA;EACD;EACA;EACA;EACA;;AAGC;EACD,ODVsB;ECWtB;;AAGC;EACD",
-  "file": "contact.css"
-}
+{"version":3,"sourceRoot":"","sources":["_base.scss","contact.scss"],"names":[],"mappings":"AAAQ;AACA;ACCR;EACE,kBDCqB;ECArB;EACA;;AASA;EACD,ODRsB;ECStB;;AAGC;EACD;;;AAID;EACE;EACA;EACA","file":"contact.css"}

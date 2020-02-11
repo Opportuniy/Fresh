@@ -31,16 +31,16 @@ nav {
   grid-area : nav;
   height    : com_heights.$h_nav_m;
   @media screen and (min-width : base.$breakpoint_desktop) {
-    height : com_heights.$h_nav_d;
-    }
+	height : com_heights.$h_nav_d;
+	}
   }
 
 header {
   grid-area : head;
   height    : com_heights.$h_head_m;
   @media screen and (min-width : base.$breakpoint_desktop) {
-    height : com_heights.$h_head_d;
-    }
+	height : com_heights.$h_head_d;
+	}
   }
 
 
@@ -64,6 +64,21 @@ footer {
   grid-area : foot;
   }
 
+.anchor {
+  display    : block;
+  position   : relative;
+  top        : -150px;
+  visibility : hidden;
+
+  @media screen and (min-width : base.$breakpoint_tablet) {
+	top : -150px;
+	}
+  @media screen and (min-width : base.$breakpoint_desktop) {
+	top : -200px;
+	}
+
+  }
+
 .grid_conatiner {
   display               : grid;
   -ms-grid-columns      : auto;
@@ -71,10 +86,10 @@ footer {
   grid-template-columns : auto;
 
   @media screen and (min-width : base.$breakpoint_desktop) {
-    -ms-grid-columns      : auto base.$breakpoint_desktop auto;
-    grid-template-areas   : "nav nav nav" "head head head" ". overview ." ". candidates ." ". cont ." ". contact ." "foot foot foot";
-    grid-template-columns : auto base.$breakpoint_desktop auto;
-    }
+	-ms-grid-columns      : auto base.$breakpoint_desktop auto;
+	grid-template-areas   : "nav nav nav" "head head head" ". overview ." ". candidates ." ". cont ." ". contact ." "foot foot foot";
+	grid-template-columns : auto base.$breakpoint_desktop auto;
+	}
   }
 
 .flex_column {
@@ -99,14 +114,14 @@ footer {
 
 .mobile_hidden {
   @media screen and (max-width : 700px) {
-    display : none;
-    }
+	display : none;
+	}
   }
 
 .desktop_hidden {
   @media screen and (min-width : 700px) {
-    display : none;
-    }
+	display : none;
+	}
   }
 
 .textstyle_heading {
