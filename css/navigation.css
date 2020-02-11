@@ -11,7 +11,6 @@ nav {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 7.5vh;
   -webkit-justify-content: space-around;
   justify-content: space-evenly;
   margin-top: 3.75vh;
@@ -34,32 +33,52 @@ nav {
 }
 @media screen and (min-width: 900px) {
   .nav_row .nav_left {
-    width: 20%;
+    width : 20%;
+    }
   }
-}
+
 .nav_row .nav_left .mobile_hamburger_menu {
-  color: #EEEEEE;
-  font-size: 2.5em;
-  padding-left: 10vw;
-  padding-right: 15vw;
-}
+  color         : #EEEEEE;
+  font-size     : 2.5em;
+  padding-left  : 10vw;
+  padding-right : 15vw;
+  }
+
+.nav_row .nav_left .logo {
+  height       : 7.5vh;
+  padding-left : 15vw;
+  }
+
+@media screen and (min-width : 900px) {
+  .nav_row .nav_left .logo {
+    height       : 10vh;
+    padding-left : 10vw;
+    }
+  }
+
 .nav_row .nav_right {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  -webkit-justify-content: space-around;
-  justify-content: space-evenly;
-  width: 100%;
-}
-@media screen and (min-width: 900px) {
+  align-items             : center;
+  display                 : flex;
+  flex-direction          : column;
+  -webkit-justify-content : space-around;
+  justify-content         : space-evenly;
+  width                   : 100%;
+  }
+
+@media screen and (min-width : 900px) {
   .nav_row .nav_right {
     flex-direction: row;
     width: 80%;
   }
 }
+
+.nav_row .nav_right li {
+  padding : 3vh 0;
+  }
+
 .nav_row .nav_hidden {
-  display: none;
-}
+  display : none;
+  }
 @media screen and (min-width: 900px) {
   .nav_row .nav_hidden {
     display: block;
@@ -77,14 +96,6 @@ nav {
 }
 .nav_row li {
   max-height: 100%;
-}
-.nav_row .logo {
-  height: 7.5vh;
-}
-@media screen and (min-width: 900px) {
-  .nav_row .logo {
-    height: 10vh;
-  }
 }
 
 /*# sourceMappingURL=navigation.css.map */

@@ -13,7 +13,7 @@ nav {
   align-items             : center;
   display                 : flex;
   flex-direction          : column;
-  height                  : com_heights.$h_nav_m / 2;
+  //height                  : com_heights.$h_nav_m / 2;
   -webkit-justify-content : space-around;
   justify-content         : space-evenly;
   margin-top              : com_heights.$h_nav_m / 4;
@@ -44,6 +44,15 @@ nav {
 	  padding-left  : 10vw;
 	  padding-right : 15vw;
 	  }
+
+	.logo {
+	  height       : com_heights.$h_nav_m / 2;
+	  padding-left : 15vw;
+	  @media screen and (min-width : base.$breakpoint_desktop) {
+		height       : com_heights.$h_nav_d / 2;
+		padding-left : 10vw;
+		}
+	  }
 	}
 
   .nav_right {
@@ -56,6 +65,10 @@ nav {
 	@media screen and (min-width : base.$breakpoint_desktop) {
 	  flex-direction : row;
 	  width          : 80%;
+	  }
+
+	li {
+	  padding : 3vh 0;
 	  }
 	}
 
@@ -85,11 +98,5 @@ nav {
 	//min-width : 0;
 	}
 
-  .logo {
-	height : com_heights.$h_nav_m / 2;
-	@media screen and (min-width : base.$breakpoint_desktop) {
-	  height : com_heights.$h_nav_d / 2;
-	  }
-	}
   }
 
