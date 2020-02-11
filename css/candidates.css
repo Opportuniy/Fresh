@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 #candidates {
-  background-color: #2F4859;
-  padding-bottom: 5vh;
-}
+  background-color : #2F4859;
+  padding-bottom   : 5vh;
+  }
+
 #candidates h2 {
-  color: #EEEEEE;
-  padding: 5vh 0;
-  text-align: center;
-}
+  color      : #EEEEEE;
+  padding    : 5vh 0;
+  text-align : center;
+  }
 
 .candidates_grid {
   display               : grid;
@@ -62,7 +63,7 @@
   }
 
 .candidate:hover .candidate_info {
-  opacity : 0.8;
+  opacity : 0.75;
   }
 
 .candidate_description {
