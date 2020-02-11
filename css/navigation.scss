@@ -75,7 +75,7 @@ nav {
   .nav_hidden {
 	display : none;
 	@media screen and (min-width : base.$breakpoint_desktop) {
-	  display : block;
+	  display : flex;
 	  }
 	}
 

@@ -31,7 +31,7 @@ nav {
   flex-direction: row;
   width: 100%;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width : 900px) {
   .nav_row .nav_left {
     width : 20%;
     }
@@ -67,10 +67,10 @@ nav {
 
 @media screen and (min-width : 900px) {
   .nav_row .nav_right {
-    flex-direction: row;
-    width: 80%;
+    flex-direction : row;
+    width          : 80%;
+    }
   }
-}
 
 .nav_row .nav_right li {
   padding : 3vh 0;
@@ -81,8 +81,8 @@ nav {
   }
 @media screen and (min-width: 900px) {
   .nav_row .nav_hidden {
-    display: block;
-  }
+    display : flex;
+    }
 }
 .nav_row a {
   color: #2FC1B9;

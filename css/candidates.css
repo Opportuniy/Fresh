@@ -16,49 +16,49 @@
   grid-row-gap          : 2vw;
   grid-template-columns : 1fr 1fr;
   }
-@media screen and (min-width: 600px) {
+
+@media screen and (min-width : 600px) {
   .candidates_grid {
-	grid-template-columns : 1fr 1fr 1fr;
-	}
+    grid-template-columns : 1fr 1fr 1fr;
+    }
   }
 
 @media screen and (min-width : 900px) {
   .candidates_grid {
-	grid-template-columns : 1fr 1fr 1fr 1fr;
-	}
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    }
   }
 
 .candidate {
   height   : 98%;
-  width    : 100%;
   position : relative;
+  width    : 100%;
   }
-
 .candidate img {
   width : 100%;
   }
 
 .candidate_info {
-  position         : absolute;
-  top              : 0;
-  bottom           : 0;
-  left             : 0;
-  right            : 0;
-  height           : 100%;
-  width            : 100%;
-  opacity          : 0;
-  transition       : 0.5s ease;
   background-color : white;
+  bottom           : 0;
+  height           : 100%;
+  left             : 0;
+  opacity          : 0;
+  position         : absolute;
+  right            : 0;
+  top              : 0;
+  transition       : 0.5s ease;
+  width            : 100%;
   }
 
 .candidate_info_text {
-  position          : absolute;
-  top               : 50%;
   left              : 50%;
-  -webkit-transform : translate(-50%, -50%);
-  -ms-transform     : translate(-50%, -50%);
-  transform         : translate(-50%, -50%);
+  position          : absolute;
   text-align        : center;
+  top               : 50%;
+  -ms-transform     : translate(-50%, -50%);
+  -webkit-transform : translate(-50%, -50%);
+  transform         : translate(-50%, -50%);
   }
 
 .candidate:hover .candidate_info {
@@ -72,8 +72,8 @@
   color                      : #EEEEEE;
   grid-column-end            : 3;
   grid-column-start          : 1;
-  max-width                  : 100%;
   margin                     : auto;
+  max-width                  : 100%;
   padding                    : 1rem;
   position                   : relative;
   width                      : 85%;

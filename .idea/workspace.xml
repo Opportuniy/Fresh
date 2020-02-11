@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/candidates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/candidates.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/candidates.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/navigation.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.scss" afterDir="false" />
@@ -257,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581457836097</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Nav menu working">
+      <created>1581458411922</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581458411922</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +314,8 @@
     <MESSAGE value="Candidates and overview grid&#10;&#10;simple responsive" />
     <MESSAGE value="manual Branch merge Idee-A &amp; Idee A-Programm" />
     <MESSAGE value="Zwischenupload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zwischenupload" />
+    <MESSAGE value="Nav menu working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nav menu working" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -321,13 +335,13 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1581457835473">
+    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1581458411442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336931569" />
     <state x="2394" y="130" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313304778" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581108637287" />
-    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581457835473" />
+    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581458411442" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1581449191460">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -415,13 +429,13 @@
     <state x="164" y="117" key="SettingsEditor/0.0.1739.939@0.0.1739.939" timestamp="1580199487789" />
     <state x="181" y="130" width="1443" height="874" key="SettingsEditor/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581164248903" />
     <state x="2101" y="129" key="SettingsEditor/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581192897304" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1581457838582">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1581458413715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336935589" />
     <state x="2358" y="251" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313327928" />
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939@0.0.1739.939" timestamp="1581108643129" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581457838582" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581458413715" />
     <state x="2472" y="256" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193071019" />
     <state x="681" y="258" key="VcsDiffUtil.ChangesDialog" timestamp="1581449165292">
       <screen x="0" y="0" width="1920" height="1040" />
