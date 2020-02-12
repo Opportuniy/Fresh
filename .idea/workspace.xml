@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/candidates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/candidates.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/candidates.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navigation.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +131,9 @@
       <workItem from="1581315683420" duration="66000" />
       <workItem from="1581318592793" duration="1634000" />
       <workItem from="1581321060058" duration="8731000" />
-      <workItem from="1581493509952" duration="5420000" />
+      <workItem from="1581493509952" duration="5631000" />
+      <workItem from="1581519187918" duration="4000" />
+      <workItem from="1581523685395" duration="203000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit attempt no.2">
       <created>1580073951355</created>
@@ -265,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581496383392</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="minor fixes">
+      <created>1581499438075</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581499438075</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,12 +325,12 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="542" y="107" key="CommitChangelistDialog2" timestamp="1581496380651">
+    <state x="542" y="107" key="CommitChangelistDialog2" timestamp="1581499435968">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336931569" />
     <state x="2394" y="130" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313304778" />
-    <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581496380651" />
+    <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581499435968" />
     <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581315736752" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
     <state x="543" y="289" key="EditFileWatcherDialog" timestamp="1581320083649">
@@ -383,13 +379,13 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="625" y="318" key="cloudConfig.SelfSettingsDialog/0.0.1739.939@0.0.1739.939" timestamp="1580123286600" />
-    <state x="605" y="315" key="com.intellij.ide.util.TipDialog" timestamp="1581493601225">
-      <screen x="0" y="0" width="1739" height="939" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581539967524">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581321064217" />
+    <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581519188959" />
     <state x="2450" y="332" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580368840386" />
     <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1581493601225" />
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581315683448" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581539967523" />
     <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581343434041">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
