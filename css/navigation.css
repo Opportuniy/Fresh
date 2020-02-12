@@ -74,6 +74,7 @@ nav {
 
 .nav_row .nav_right li {
   padding : 3vh 0;
+  width   : 100%;
   }
 
 .nav_row .nav_hidden {

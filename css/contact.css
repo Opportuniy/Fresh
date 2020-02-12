@@ -14,9 +14,13 @@
 }
 
 .contact_row {
-  justify-content: space-evenly;
-  text-align: center;
-  width: 100%;
-}
+  justify-content : space-evenly;
+  text-align      : center;
+  width           : 100%;
+  }
+
+.contact_row div {
+  width : 100%;
+  }
 
 /*# sourceMappingURL=contact.css.map */

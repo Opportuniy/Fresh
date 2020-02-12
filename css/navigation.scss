@@ -16,6 +16,7 @@ nav {
   //height                  : com_heights.$h_nav_m / 2;
   -webkit-justify-content : space-around;
   justify-content         : space-evenly;
+
   margin-top              : com_heights.$h_nav_m / 4;
   @media screen and (min-width : base.$breakpoint_desktop) {
 	flex-direction : row;
@@ -69,6 +70,7 @@ nav {
 
 	li {
 	  padding : 3vh 0;
+	  width   : 100%;
 	  }
 	}
 
