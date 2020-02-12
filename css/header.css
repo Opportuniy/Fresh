@@ -26,8 +26,9 @@ header {
 }
 @media screen and (min-width: 900px) {
   .head_text {
-    width: 40vw;
-  }
+    width     : 40vw;
+    font-size : 2em;
+    }
 }
 .head_text h3 {
   padding: 1vh 0;
