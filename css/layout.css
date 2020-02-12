@@ -16,22 +16,22 @@ body {
 }
 
 nav {
-  grid-area  : nav;
-  min-height : 15vh;
-  }
+  grid-area: nav;
+  min-height: 15vh;
+}
 @media screen and (min-width: 900px) {
   nav {
-    min-height : 20vh;
-    }
+    min-height: 20vh;
+  }
 }
 
 header {
   grid-area: head;
-  height: 85vh;
+  min-height: 85vh;
 }
 @media screen and (min-width: 900px) {
   header {
-    height: 80vh;
+    min-height: 80vh;
   }
 }
 
@@ -48,50 +48,52 @@ header {
 }
 
 #candidates {
-  grid-area : candidates;
-  }
+  grid-area: candidates;
+}
 
 footer {
-  grid-area : foot;
-  }
+  grid-area: foot;
+}
 
 .anchor {
-  display    : block;
-  position   : relative;
-  top        : -150px;
-  visibility : hidden;
-  }
-
-@media screen and (min-width : 600px) {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
+}
+@media screen and (min-width: 600px) {
   .anchor {
-    top : -150px;
-    }
+    top: -150px;
   }
-
-@media screen and (min-width : 900px) {
+}
+@media screen and (min-width: 900px) {
   .anchor {
-    top : -200px;
-    }
+    top: -200px;
   }
+}
+
+.content_frame {
+  margin: auto;
+  max-width: 900px;
+}
 
 .grid_conatiner {
-  display               : grid;
-  -ms-grid-columns      : auto;
-  grid-template-areas   : "nav" "head" "overview" "candidates" "cont" "contact" "foot";
-  grid-template-columns : auto;
-  }
-
-@media screen and (min-width : 900px) {
+  display: grid;
+  -ms-grid-columns: auto;
+  grid-template-areas: "nav" "head" "overview" "candidates" "cont" "contact" "foot";
+  grid-template-columns: auto;
+}
+@media screen and (min-width: 900px) {
   .grid_conatiner {
-    -ms-grid-columns      : auto 900px auto;
-    grid-template-areas   : "nav nav nav" "head head head" ". overview ." ". candidates ." ". cont ." ". contact ." "foot foot foot";
-    grid-template-columns : auto 900px auto;
-    }
+    -ms-grid-columns: auto 900px auto;
+    grid-template-areas: "nav nav nav" "head head head" ". overview ." ". candidates ." ". cont ." ". contact ." "foot foot foot";
+    grid-template-columns: auto 900px auto;
   }
+}
 
 .flex_column {
-  display        : flex;
-  flex-direction : column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex_row {
@@ -104,45 +106,45 @@ footer {
 }
 
 .hover_magenta:hover {
-  color : #E0014D;
-  }
+  color: #E0014D;
+}
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width: 600px) {
   .mobile_hidden {
-    display : none;
-    }
+    display: none;
   }
+}
 
-@media screen and (min-width : 600px) and (max-width : 900px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
   .tablet_hidden {
-    display : none;
-    }
+    display: none;
   }
+}
 
-@media screen and (min-width : 900px) {
+@media screen and (min-width: 900px) {
   .desktop_hidden {
-    display : none;
-    }
+    display: none;
   }
+}
 
 .textstyle_heading {
-  font-family : "Barlow", sans-serif;
-  }
+  font-family: "Barlow", sans-serif;
+}
 
 .hidden {
   display: none;
-  }
+}
 
 *::selection {
-  background : #2FC1B9;
-  }
+  background: #2FC1B9;
+}
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection {
-  background : #E0014D;
-  }
+  background: #E0014D;
+}
 
 h1, h2, h3, h4, h5 {
-  text-transform : uppercase;
-  }
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=layout.css.map */

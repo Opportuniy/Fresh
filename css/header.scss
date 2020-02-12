@@ -16,11 +16,23 @@ header {
   }
 
 .head_text {
-  font-size   : 1.5em;
-  margin-left : 10vw;
-  margin-top  : 10vh;
-  min-width   : 400px;
-  width       : 40vw;
+  font-size : 1.5em;
+  //margin-left : 10vw;
+  //margin-top  : 10vh;
+  margin    : 10vh 10vw;
+  min-width : 250px;
+  width     : 80vw;
+  @media screen and (min-width : base.$breakpoint_desktop) {
+    width : 40vw;
+    }
+
+  h3 {
+    padding : 1vh 0;
+    }
+
+  h2 {
+    padding : 2vh 0;
+    }
   }
 
 

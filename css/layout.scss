@@ -36,10 +36,10 @@ nav {
   }
 
 header {
-  grid-area : head;
-  height    : com_heights.$h_head_m;
+  grid-area  : head;
+  min-height : com_heights.$h_head_m;
   @media screen and (min-width : base.$breakpoint_desktop) {
-	height : com_heights.$h_head_d;
+	min-height : com_heights.$h_head_d;
 	}
   }
 
@@ -77,6 +77,11 @@ footer {
 	top : -200px;
 	}
 
+  }
+
+.content_frame {
+  margin    : auto;
+  max-width : base.$breakpoint_desktop;
   }
 
 .grid_conatiner {

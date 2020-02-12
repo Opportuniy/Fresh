@@ -15,10 +15,20 @@ header {
 
 .head_text {
   font-size: 1.5em;
-  margin-left: 10vw;
-  margin-top: 10vh;
-  min-width: 400px;
-  width: 40vw;
+  margin: 10vh 10vw;
+  min-width: 250px;
+  width: 80vw;
+}
+@media screen and (min-width: 900px) {
+  .head_text {
+    width: 40vw;
+  }
+}
+.head_text h3 {
+  padding: 1vh 0;
+}
+.head_text h2 {
+  padding: 2vh 0;
 }
 
 /*# sourceMappingURL=header.css.map */
