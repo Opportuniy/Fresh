@@ -1,4 +1,5 @@
 @use 'base';
+@use 'com_heights';
 
 header {
   //background-color : base.$color_background;
@@ -12,7 +13,10 @@ header {
   background-position : bottom right;
   background-repeat   : no-repeat;
   height              : 100%;
-  width               : 100%;
+  min-height          : com_heights.$h_head_m;
+  @media screen and (min-width : base.$breakpoint_desktop) {
+    min-height : com_heights.$h_head_d;
+    }
   }
 
 .head_text {

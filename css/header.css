@@ -10,7 +10,12 @@ header {
   background-position: bottom right;
   background-repeat: no-repeat;
   height: 100%;
-  width: 100%;
+  min-height: 85vh;
+}
+@media screen and (min-width: 900px) {
+  .logo_overlay {
+    min-height: 80vh;
+  }
 }
 
 .head_text {
