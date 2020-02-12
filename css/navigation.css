@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 nav {
   background-color: #131B21;
@@ -86,7 +86,7 @@ nav {
 	}
 }
 .nav_row a {
-  color: #2FC1B9;
+  color: #3B5969;
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
