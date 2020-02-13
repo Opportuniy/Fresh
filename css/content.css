@@ -5,21 +5,32 @@
   padding: 5%;
 }
 #content h2 {
-  padding-top: 2vh;
-  text-align: center;
-}
+  padding-top : 2vh;
+  text-align  : center;
+  }
+
+#content h2 a {
+  height : 2vh;
+  }
+
 #content h3 {
-  padding-bottom: 1vh;
-  padding-top: 3vh;
-}
+  padding-bottom : 1vh;
+  padding-top    : 3vh;
+  }
+
 #content h4 {
-  padding-bottom: 1vh;
-  padding-top: 1vh;
-}
+  padding-bottom : 1vh;
+  padding-top    : 1vh;
+  }
+
 #content div {
-  padding-bottom: 5vh;
-  padding-left: 10%;
-  padding-right: 10%;
-}
+  padding-bottom : 5vh;
+  padding-left   : 10%;
+  padding-right  : 10%;
+  }
+
+#prog_download {
+  padding-top : 3vh;
+  }
 
 /*# sourceMappingURL=content.css.map */

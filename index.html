@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+	<link href="/pictures/Logo_fresh-01.png" rel="icon" type="image/png">
+
 	<link href="css/layout.css" rel="stylesheet" type="text/css">
 	<link href="css/animations.css" rel="stylesheet" type="text/css">
 	<link href="css/header.css" rel="stylesheet" type="text/css">
@@ -13,6 +15,7 @@
 	<link href="css/contact.css" rel="stylesheet" type="text/css">
 	<link href="css/candidates.css" rel="stylesheet" type="text/css">
 	<link href="css/content.css" rel="stylesheet" type="text/css">
+	<link href="css/donate.css" rel="stylesheet" type="text/css">
 	<link href="css/footer.css" rel="stylesheet" type="text/css">
 
 
@@ -31,12 +34,13 @@
 		<div class="nav_row">
 			<ul class="nav_left" id="nav_left">
 				<li class="mobile_hamburger_menu desktop_hidden" onclick="toggleMobileMenu()">&#x2630;</li>
-				<li><img alt="Fresh Logo" class="logo" src="pictures/logo_white.png"></li>
+				<!--TODO: Logo farbig-->
+				<li><a href="#head_anchor"><img alt="Fresh Logo" class="logo" src="pictures/logo_white.png"></a></li>
 			</ul>
 			<ul class="nav_right nav_hidden" id="nav_right">
-				<li class=" "><a class="" href="#overview_anchor">.wofür</a></li>
-				<li class=" "><a class="" href="#content_anchor">.programm</a></li>
-				<li class=" "><a class="" href="#contact_anchor">.kontakt</a></li>
+				<li class=" "><a class="lower_case" href="#overview_anchor">.wofür</a></li>
+				<li class=" "><a class="lower_case" href="#content_anchor">.programm</a></li>
+				<li class=" "><a class="lower_case" href="#contact_anchor">.kontakt</a></li>
 				<!--				<li class="mobile_hidden tablet_hidden"><a class="" href="unterstützen.html">.unterstützen</a></li>-->
 			</ul>
 		</div>
@@ -48,7 +52,6 @@
 			}
 		</script>
 	</nav>
-	<!-- DONE Überschriften und Header in all caps. Kann gerne auch Hardcoded sein. -->
 	<header class="flex_column">
 		<a class="anchor" id="head_anchor"></a>
 		<div class="logo_overlay">
@@ -63,27 +66,26 @@
 
 	<div id="overview">
 		<div class="content_frame">
-			<!-- TODO Würde wieder Logos für die Punkte hinzufügen, bereite da jeweils ne .PNG oder .SVG auf selber Größe vor -->
 
 			<a class="anchor" id="overview_anchor"></a>
 			<h2>wofür wir stehen</h2>
 			<div class="overview_grid">
 				<div id="jung">
-					<div><img class="icon flipIny animated" src="img/jung-01.png"  alt="jung"></div>
+					<img alt="jung" class="icon flipIny animated" src="img/jung-01.png">
 					<h3>jung</h3>
 					Wir stehen nicht nur für eine unglaublich junge Liste (Ø 24,8 Jahre) mit neuen
 					Gesichtern, sondern auch für junge und freshe Ideen, die alle Moosburger
 					ansprechen.
 				</div>
 				<div id="bunt flipInY animated">
-					<div><img class="icon flipIny animated" src="img/bunt-01.png"  alt="bunt"></div>
+					<img alt="bunt" class="icon flipIny animated" src="img/bunt-01.png">
 					<h3>bunt</h3>
 					Moosburg ist bunt. Und so muss auch die Politik in unserer wundervollen
 					Stadt sein. Wir bringen verschiedenste politische Meinungen an einen Tisch
 					und erarbeiten so den besten Zukunftsplan für Moosburg.
 				</div>
 				<div id="aktiv">
-					<div><img class="icon flipIny animated" src="img/aktiv-01.png"  alt="aktiv"></div>
+					<img alt="aktiv" class="icon flipIny animated" src="img/aktiv-01.png">
 					<h3>aktiv</h3>
 					Wir wollen uns nicht nur beschweren und jeglichen Umstand in Frage stellen
 					oder bloß drüber reden, was man verändern könnte.
@@ -97,12 +99,13 @@
 		<img alt="" src="pictures/wersindie%5B6066%5D.png">
 	</div>
 
+	<!--	TODO DOWNLOAD-->
 	<div id="content">
 		<div class="content_frame">
 			<a class="anchor" id="content_anchor"></a>
-			<h2>.programm</h2>
+			<h2 class="lower_case">.programm</h2>
 			<div>
-				<h3>.digitalisierung</h3>
+				<h3 class="lower_case">.digitalisierung</h3>
 				<h4>Stadt Moosburg 4.0</h4>
 				<ul>
 					<li>Benutzerfreundliche und informative Homepage in mehreren Sprachen</li>
@@ -111,6 +114,7 @@
 					<li>Webhosting-Angebot für Vereine</li>
 					<li>Flächendeckendes WLAN in der Innenstadt und am Bahnhof</li>
 					<li>Fortschreitender Glasfaserausbau</li>
+					<!--				TODO:APP	-->
 				</ul>
 				<h4>Stadtrat 4.0</h4>
 				<ul>
@@ -118,7 +122,7 @@
 					<li>Livestream der Stadtratssitzungen</li>
 					<li>Online-Sprechstunde mit dem/der Bürgermeister/in</li>
 				</ul>
-				<h3>.wohnen & leben</h3>
+				<h3 class="lower_case">.wohnen & leben</h3>
 				<h4>Innenstadt</h4>
 				<ul>
 					<li>Attraktivitätssteigerung der Innenstadt</li>
@@ -137,14 +141,14 @@
 					<li>Erhaltung und Erweiterung von Grünflächen</li>
 					<li>Schaffung von Raum für neue Schulen und Kindergärten</li>
 				</ul>
-				<h3>.mobilität</h3>
+				<h3 class="lower_case">.mobilität</h3>
 				<ul>
-					<li>Erweiterung des ÖPNV zum Degernpoint und der umliegenden Ortschaften</li>
+					<li>Erweiterung des ÖPNV zum Degernpoint und den umliegenden Ortschaften</li>
 					<li>Verlängerung der Fußgängerunterführung am Bahnhof</li>
 					<li>Ausbau der Zugverbindungen nach Freising, München und Landshut</li>
 					<li>Aktive Unterstützung bei der Erweiterung des MVV nach Landshut</li>
 				</ul>
-				<h3>.umwelt</h3>
+				<h3 class="lower_case">.umwelt</h3>
 				<ul>
 					<li>Schutz und Erhalt der Isar- und Amperauen</li>
 					<li>Platzierung von mehr Mülleimern und Aschenbechern</li>
@@ -152,33 +156,44 @@
 					<li>Photovoltaik-Anlagen auf Dächern öffentlicher Gebäude</li>
 					<li>Instandhaltung und Ausbau der Radwege durch die Stadt und der Isar- und Amperauen</li>
 				</ul>
-				<h3>.kultur</h3>
+				<h3 class="lower_case">.kultur</h3>
 				<ul>
 					<li>Erhalt der vielseitigen Veranstaltungen</li>
 					<li>Nutzung des Amtsgerichtsgartens</li>
 					<li>Willkommensveranstaltung für neue Bürger mit Vorstellungsmöglichkeit für Vereine</li>
 					<li>Erweiterung von Informationstafeln an denkmalgeschützten Gebäuden</li>
 				</ul>
+
+				<div id="prog_download">
+					Unser Programm zum Download findet ihr
+					<a download="" href="data/fresh_programm.pdf"> hier </a>.
+				</div>
 			</div>
 		</div>
 	</div>
 
 
-	<section id="overview">
+	<section id="donate">
 		<div class="content_frame">
-			<a class="anchor" id="content_anchor"></a>
+			<a class="anchor"></a>
 			<h2>.unterstützen</h2>
 			<div>
 				<!-- die form ist der button, kannst du normaler weise ganz normal mit class und id taggen -->
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-				<input type="hidden" name="cmd" value="_s-xclick" />
-				<input type="hidden" name="hosted_button_id" value="768EJLUU9VLRL" />
-				<input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button" />
-				<img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+					<input name="cmd" type="hidden" value="_s-xclick"/>
+					<input name="hosted_button_id" type="hidden" value="768EJLUU9VLRL"/>
+					<input alt="Spenden mit dem PayPal-Button"
+						   border="0"
+						   name="submit"
+						   src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif"
+						   title="PayPal - The safer, easier way to pay online!"
+						   type="image"
+					/>
+					<img alt="" border="0" height="1" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1"/>
 				</form>
-			
+
 			</div>
-		</div>	
+		</div>
 	</section>
 
 	<div id="contact">
