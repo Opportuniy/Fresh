@@ -19,8 +19,22 @@
   text-align: center;
   width: 100%;
 }
+@media screen and (max-width: 600px) {
+  .contact_row {
+    margin: auto;
+    width: 90%;
+  }
+}
 .contact_row div {
   width: 100%;
+}
+.contact_row svg {
+  max-width: 80px;
+}
+@media screen and (max-width: 600px) {
+  .contact_row svg {
+    width: 20vw;
+  }
 }
 
 /*# sourceMappingURL=contact.css.map */

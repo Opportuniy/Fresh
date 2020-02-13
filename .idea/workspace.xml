@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/donate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/donate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +147,7 @@
       <workItem from="1581523685395" duration="203000" />
       <workItem from="1581539965619" duration="2431000" />
       <workItem from="1581545421952" duration="3449000" />
-      <workItem from="1581598959450" duration="7834000" />
+      <workItem from="1581598959450" duration="8810000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit attempt no.2">
       <created>1580073951355</created>
@@ -350,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581606602493</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="logo farbig">
+      <created>1581606821826</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1581606821826</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +396,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit attempt no.2" />
     <MESSAGE value="End of day commit" />
     <MESSAGE value="Bis auf Inhalt fertig. simple responsive" />
     <MESSAGE value="Version A besprochen am 07.02.2020 im 3 Tannen" />
@@ -405,7 +420,8 @@
     <MESSAGE value="option2.html&#10;&#10;fill" />
     <MESSAGE value="LIVE COMMIT" />
     <MESSAGE value="donate text" />
-    <option name="LAST_COMMIT_MESSAGE" value="donate text" />
+    <MESSAGE value="logo farbig" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo farbig" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -425,13 +441,13 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1581606602034">
+    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1581606821364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336931569" />
     <state x="2394" y="130" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313304778" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581499435968" />
-    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581606602034" />
+    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581606821364" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
     <state x="543" y="289" key="EditFileWatcherDialog" timestamp="1581320083649">
       <screen x="0" y="0" width="1739" height="939" />

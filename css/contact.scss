@@ -28,7 +28,20 @@
   text-align      : center;
   width           : 100%;
 
+  @media screen and (max-width : base.$breakpoint_tablet) {
+	margin : auto;
+	width  : 90%;
+	}
+
   div {
 	width : 100%;
+	}
+
+  svg {
+
+	max-width : 80px;
+	@media screen and (max-width : base.$breakpoint_tablet) {
+	  width : 20vw
+	  }
 	}
   }
