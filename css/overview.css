@@ -1,41 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 #overview {
-  background-color : #131B21;
-  color            : #EEEEEE;
-  }
-
+  background-color: #2F4859;
+  color: #EEEEEE;
+}
 #overview h2 {
-  padding    : 3vh 0;
-  text-align : center;
-  }
-
+  padding: 3vh 0;
+  text-align: center;
+}
 #overview h3 {
-  padding    : 1vh 0 2vh 0;
-  text-align : center;
-  }
-
+  padding: 1vh 0 2vh 0;
+  text-align: center;
+}
 #overview .overview_grid {
-  display               : grid;
-  grid-column-gap       : 2vw;
-  grid-template-columns : 1fr;
-  justify-content       : space-evenly;
-  padding-bottom        : 5vh;
-  padding-left          : 2vw;
-  padding-right         : 2vw;
-  }
-
-@media screen and (min-width : 600px) {
+  display: grid;
+  grid-column-gap: 2vw;
+  grid-template-columns: 1fr;
+  justify-content: space-evenly;
+  justify-self: center;
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+@media screen and (min-width: 600px) {
   #overview .overview_grid {
-	grid-template-columns : 1fr 1fr 1fr;
-	}
+    grid-template-columns: 1fr 1fr 1fr;
   }
-
-
-  #overview  .icon {
-    align-content: center;
-    max-width: 100%;
-    padding: 10px,10px,10px,10px;
+}
+#overview .icon {
+  max-width: 200px;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  #overview .icon {
+    max-width: 600px;
+    padding-left: 5vw;
+    width: 85vw;
   }
+}
 
 /*# sourceMappingURL=overview.css.map */

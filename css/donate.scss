@@ -1,8 +1,8 @@
 @use 'base';
 
-#overview {
+#donate {
 
-  background-color : base.$color_steel_blue;
+  background-color : base.$color_background;
 
   color            : base.$color_gray;
 
@@ -22,7 +22,6 @@
 	grid-column-gap       : 2vw;
 	grid-template-columns : 1fr;
 	justify-content       : space-evenly;
-	justify-self          : center;
 	padding-bottom        : 5vh;
 	padding-left          : 2vw;
 	padding-right         : 2vw;
@@ -30,33 +29,9 @@
 	  grid-template-columns : 1fr 1fr 1fr;
 	  }
 
-
-	}
-
-  .icon {
-	max-width : 200px;
-	width     : 100%;
-
-	@media screen and (max-width : base.$breakpoint_tablet) {
-	  max-width    : 600px;
-	  padding-left : 5vw;
-	  width        : 85vw;
+	div {
+	  //height : 100%;
 	  }
-
 	}
-
-  }
-
-#jung {
-  div {
-
-	}
-  }
-
-#bunt {
-
-  }
-
-#aktiv {
 
   }

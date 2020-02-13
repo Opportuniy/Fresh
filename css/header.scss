@@ -15,8 +15,8 @@ header {
   height              : 100%;
   min-height          : com_heights.$h_head_m;
   @media screen and (min-width : base.$breakpoint_desktop) {
-    min-height : com_heights.$h_head_d;
-    }
+	min-height : com_heights.$h_head_d;
+	}
   }
 
 .head_text {
@@ -27,16 +27,17 @@ header {
   min-width : 250px;
   width     : 80vw;
   @media screen and (min-width : base.$breakpoint_desktop) {
-    width : 40vw;
-    }
+	font-size : 2em;
+	width     : 40vw;
+	}
 
   h3 {
-    padding : 1vh 0;
-    }
+	padding : 1vh 0;
+	}
 
   h2 {
-    padding : 2vh 0;
-    }
+	padding : 2vh 0;
+	}
   }
 
 
