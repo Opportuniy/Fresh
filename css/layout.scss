@@ -7,17 +7,6 @@
   padding     : 0;
   }
 
-//:target::before {
-//  content : "";
-//  display : block;
-//  height  : 10vh; /* fixed header height*/
-//  margin  : -10vh 0 0; /* negative fixed header height */
-//  @media screen and (min-width : base.$breakpoint_desktop) {
-//    height : 15vh; /* fixed header height*/
-//    margin : -15vh 0 0; /* negative fixed header height */
-//    }
-//  }
-
 #mainframe {
   margin     : auto;
   min-height : 100vh;
@@ -28,7 +17,6 @@ body {
   }
 
 nav {
-  //grid-area  : nav;
   min-height : com_heights.$h_nav_m;
   @media screen and (min-width : base.$breakpoint_desktop) {
 	min-height : com_heights.$h_nav_d;
@@ -36,32 +24,10 @@ nav {
   }
 
 header {
-  //grid-area  : head;
   min-height : com_heights.$h_head_m;
   @media screen and (min-width : base.$breakpoint_desktop) {
 	min-height : com_heights.$h_head_d;
 	}
-  }
-
-
-#overview {
-  //grid-area : overview;
-  }
-
-#contact {
-  //grid-area : contact;
-  }
-
-#content {
-  //grid-area : cont;
-  }
-
-#candidates {
-  //grid-area : candidates;
-  }
-
-footer {
-  //grid-area : foot;
   }
 
 .anchor {
@@ -83,19 +49,6 @@ footer {
   margin    : auto;
   max-width : base.$breakpoint_desktop;
   }
-
-//.grid_conatiner {
-//  display               : grid;
-//  -ms-grid-columns      : auto;
-//  grid-template-areas   : "nav" "head" "overview" "candidates" "cont" "contact" "foot";
-//  grid-template-columns : auto;
-//
-//  @media screen and (min-width : base.$breakpoint_desktop) {
-//	-ms-grid-columns      : auto base.$breakpoint_desktop auto;
-//	grid-template-areas   : "nav nav nav" "head head head" ". overview ." ". candidates ." ". cont ." ". contact ." "foot foot foot";
-//	grid-template-columns : auto base.$breakpoint_desktop auto;
-//	}
-//  }
 
 .flex_column {
   display        : flex;
@@ -151,10 +104,11 @@ h1::selection, h2::selection, h3::selection, h4::selection, h5::selection {
   background : base.$color_turquoise;
   }
 
-h1, h2, h3, h4, h5 {
+.uppercase {
   text-transform : uppercase;
   }
 
 .lower_case {
+  font-size      : 2em;
   text-transform : lowercase;
   }

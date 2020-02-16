@@ -2,7 +2,7 @@
 
 #overview {
 
-  background-color : base.$color_steel_blue;
+  background-color : base.$color_background;
 
   color            : base.$color_gray;
 
@@ -17,41 +17,36 @@
 	}
 
 
-  .overview_grid {
-	display               : grid;
-	grid-column-gap       : 2vw;
-	grid-template-columns : 1fr;
-	justify-content       : space-evenly;
-	justify-self          : center;
-	padding-bottom        : 5vh;
-	padding-left          : 2vw;
-	padding-right         : 2vw;
-	@media screen and (min-width : base.$breakpoint_tablet) {
-	  grid-template-columns : 1fr 1fr 1fr;
-	  }
+  }
 
+.icon_container {
 
-	}
+  width : 100%;
 
   .icon {
-	max-width : 200px;
-	width     : 100%;
-
-
-	@media screen and (max-width : base.$breakpoint_tablet) {
-	  max-width    : 600px;
-	  padding-left : 5vw;
-	  width        : 85vw;
-	  }
-
+	margin : 0 10%;
+	width  : 80%;
 	}
+  }
 
+.overview_grid {
+  display               : grid;
+  grid-column-gap       : 2vw;
+  grid-template-columns : 1fr;
+  justify-content       : space-evenly;
+  justify-self          : center;
+  padding-bottom        : 5vh;
+  padding-left          : 7vw;
+  padding-right         : 7vw;
+  @media screen and (min-width : base.$breakpoint_tablet) {
+	grid-template-columns : 1fr 1fr 1fr;
+	padding-left          : 2vw;
+	padding-right         : 2vw;
+	}
   }
 
 #jung {
-  div {
 
-	}
   }
 
 #bunt {

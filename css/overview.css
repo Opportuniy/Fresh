@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 #overview {
-  background-color: #2F4859;
+  background-color: #131B21;
   color: #EEEEEE;
 }
 #overview h2 {
@@ -12,30 +12,30 @@
   padding: 1vh 0 2vh 0;
   text-align: center;
 }
-#overview .overview_grid {
+
+.icon_container {
+  width: 100%;
+}
+.icon_container .icon {
+  margin: 0 10%;
+  width: 80%;
+}
+
+.overview_grid {
   display: grid;
   grid-column-gap: 2vw;
   grid-template-columns: 1fr;
   justify-content: space-evenly;
   justify-self: center;
   padding-bottom: 5vh;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
 }
 @media screen and (min-width: 600px) {
-  #overview .overview_grid {
+  .overview_grid {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-#overview .icon {
-  max-width: 200px;
-  width: 100%;
-}
-@media screen and (max-width: 600px) {
-  #overview .icon {
-    max-width: 600px;
-    padding-left: 5vw;
-    width: 85vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
 }
 
