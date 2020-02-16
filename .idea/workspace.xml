@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/impressum.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/overview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/overview.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +141,7 @@
       <workItem from="1581539965619" duration="2431000" />
       <workItem from="1581545421952" duration="3449000" />
       <workItem from="1581598959450" duration="10689000" />
-      <workItem from="1581863889996" duration="3312000" />
+      <workItem from="1581863889996" duration="4694000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit attempt no.2">
       <created>1580073951355</created>
@@ -388,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581865469770</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="meta tag SEO">
+      <created>1581867827756</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1581867827756</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +425,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CSS strukturiert.&#10;&#10;Grid mit Breite 1 erhalten" />
     <MESSAGE value="kleine Korrekturen" />
     <MESSAGE value="remove .idea" />
     <MESSAGE value="before branch" />
@@ -443,7 +449,8 @@
     <MESSAGE value="nav-menu farbe geändert die zweite" />
     <MESSAGE value="kein programmdownload" />
     <MESSAGE value="Font size headings. &#10;&#10;centered Overview icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Font size headings. &#10;&#10;centered Overview icons" />
+    <MESSAGE value="meta tag SEO" />
+    <option name="LAST_COMMIT_MESSAGE" value="meta tag SEO" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -463,13 +470,13 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1581865468869">
+    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1581867827248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336931569" />
     <state x="2394" y="130" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313304778" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581499435968" />
-    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581865468869" />
+    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581867827248" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
     <state x="543" y="289" key="EditFileWatcherDialog" timestamp="1581320083649">
       <screen x="0" y="0" width="1739" height="939" />

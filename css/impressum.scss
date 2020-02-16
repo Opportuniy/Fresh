@@ -1,0 +1,16 @@
+@use "base";
+
+
+#impressum {
+  color : base.$color_gray;
+
+  h2 {
+	padding    : 3vh 0;
+	text-align : center;
+	}
+  }
+
+.impressum {
+  margin : auto;
+  width  : 80%;
+  }
