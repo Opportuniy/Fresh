@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/impressum.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures/candidates.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animations.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +151,7 @@
       <workItem from="1581545421952" duration="3449000" />
       <workItem from="1581598959450" duration="10689000" />
       <workItem from="1581863889996" duration="4694000" />
+      <workItem from="1581948022672" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit attempt no.2">
       <created>1580073951355</created>
@@ -470,13 +480,13 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1581867827248">
+    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1581869912207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336931569" />
     <state x="2394" y="130" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313304778" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581499435968" />
-    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581867827248" />
+    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581869912207" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
     <state x="543" y="289" key="EditFileWatcherDialog" timestamp="1581320083649">
       <screen x="0" y="0" width="1739" height="939" />
@@ -512,22 +522,22 @@
     <state x="164" y="117" key="SettingsEditor/0.0.1739.939@0.0.1739.939" timestamp="1580199487789" />
     <state x="181" y="130" width="1443" height="874" key="SettingsEditor/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581164248903" />
     <state x="2101" y="129" key="SettingsEditor/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581192897304" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1581865474574">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1581869914152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581336935589" />
     <state x="2358" y="251" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313327928" />
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939@0.0.1739.939" timestamp="1581108643129" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581865474574" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581869914152" />
     <state x="2472" y="256" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193071019" />
     <state x="625" y="318" key="cloudConfig.SelfSettingsDialog" timestamp="1580123286600">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="625" y="318" key="cloudConfig.SelfSettingsDialog/0.0.1739.939@0.0.1739.939" timestamp="1580123286600" />
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581863888787">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="605" y="315" key="com.intellij.ide.util.TipDialog" timestamp="1581948022695">
+      <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581519188959" />
+    <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581948022695" />
     <state x="2450" y="332" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580368840386" />
     <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1581493601225" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581863888787" />
