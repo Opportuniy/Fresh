@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+#donate {
+  background-color : #131B21;
+  color            : #EEEEEE;
+  }
+
+#donate h2 {
+  padding    : 3vh 0;
+  text-align : center;
+  }
+
+#donate h4 {
+  padding    : 1vh 0 2vh 0;
+  text-align : center;
+  }
+
+#donate div {
+  padding-bottom : 3vh;
+  padding-left   : 5vw;
+  padding-right  : 5vw;
+  }
+
+#donate-button {
+  margin : auto;
+  }
+
+/*# sourceMappingURL=donate.css.map */

@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": ["_base.scss", "impressum.scss"],
+  "names": [],
+  "mappings": "AAAQ;AACA;ACER;EACE,ODGqB;;ACDrB;EACD;EACA;;;AAID;EACE;EACA",
+  "file": "impressum.css"
+}
