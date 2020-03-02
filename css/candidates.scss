@@ -3,6 +3,8 @@
 #candidates {
   background-color : base.$color_background;
   margin           : auto;
+  max-width        : base.$breakpoint_desktop + 300px;
+
   padding-bottom   : 15vh;
 
   //img {
@@ -15,6 +17,10 @@
 	padding    : 5vh 0;
 	text-align : center;
 	}
+  }
+
+h4 {
+  padding : 1vh 0;
   }
 
 .candidates_grid {
@@ -49,8 +55,7 @@
 .candidate_info {
   background-color : white;
   bottom           : 0;
-  bottom           : 0;
-  height           : 30%;
+  height           : 20%;
   // max-width        : 350px;
   left             : 0;
   opacity          : 0;

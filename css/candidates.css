@@ -3,12 +3,17 @@
 #candidates {
   background-color: #131B21;
   margin: auto;
+  max-width: 1200px;
   padding-bottom: 15vh;
 }
 #candidates h2 {
   color: #EEEEEE;
   padding: 5vh 0;
   text-align: center;
+}
+
+h4 {
+  padding: 1vh 0;
 }
 
 .candidates_grid {
@@ -40,8 +45,7 @@
 .candidate_info {
   background-color: white;
   bottom: 0;
-  bottom: 0;
-  height: 30%;
+  height: 20%;
   left: 0;
   opacity: 0;
   position: absolute;

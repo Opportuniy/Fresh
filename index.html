@@ -25,6 +25,8 @@
 	<link href="css/footer.css" rel="stylesheet" type="text/css">
 	<link href="css/impressum.css" rel="stylesheet" type="text/css">
 
+	<link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
+
 
 	<title>FRESH - jung, bunt, aktiv</title>
 	<!-- DONE PRIO Titel viel größer, sollte sehr hohe visuelle Hierarchie haben. -->
@@ -77,7 +79,7 @@
 			<a class="anchor" id="overview_anchor"></a>
 			<h2 class="lower_case">.wofür</h2>
 			<div class="overview_grid">
-				<div id="jung">
+				<div data-aos="fade-up" id="jung">
 					<div class="icon_container">
 						<img alt="jung" class="icon flipIny animated" src="pictures/jung.png">
 					</div>
@@ -86,7 +88,7 @@
 					Gesichtern, sondern auch für junge und freshe Ideen, die alle Moosburger
 					ansprechen.
 				</div>
-				<div id="bunt flipInY animated">
+				<div data-aos="fade-up" id="bunt">
 					<div class="icon_container">
 						<img alt="bunt" class="icon flipIny animated" src="pictures/bunt.png">
 					</div>
@@ -95,7 +97,7 @@
 					Stadt sein. Wir bringen verschiedenste politische Meinungen an einen Tisch
 					und erarbeiten so den besten Zukunftsplan für Moosburg.
 				</div>
-				<div id="aktiv">
+				<div data-aos="fade-up" id="aktiv">
 					<div class="icon_container">
 						<img alt="aktiv" class="icon flipIny animated" src="pictures/aktiv.png">
 					</div>
@@ -117,303 +119,281 @@
 
 		<!--		Done: small vertical grid gap??-->
 
-		<div class="candidates_grid content_frame">
+		<div class="candidates_grid">
 			<div class="candidate">
 				<img alt="" id="c1" onclick="toggleVisibility(1)" src="pictures/candidates/Wittmann.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(1)">Thomas Wittmann - 23</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(1)">Thomas <br> Wittmann</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr1 tr1 dr1" id="desc1" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr1 tr1 dr1" id="desc1" style="display: none;">
+				<h4>Thomas Wittmann - 25 - KfZ-Mechatroniker in der Ausbildung</h4>
+				<!--							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
+				<!--							invidunt ut-->
+				<!--							labore-->
+				<!--							et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
+				<!--							dolores et ea-->
+				<!--							rebum.-->
+				<!--							Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
+				<!--							ipsum dolor-->
+				<!--							sit-->
+				<!--							amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
+				<!--							dolore magna-->
+				<!--							aliquyam erat, sed diam voluptua.-->
+			</div>
 			<div class="candidate">
 				<img alt="" id="c2" onclick="toggleVisibility(2)" src="pictures/candidates/Lohmaier.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text " onclick="toggleVisibility(2)">Thomas Lohmaier - 26</div>
+					<div class="candidate_info_text " onclick="toggleVisibility(2)">Thomas <br> Lohmaier</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr1 tr1 dr1" id="desc2" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr1 tr1 dr1" id="desc2" style="display: none;">
+				<h4>Thomas Lohmaier - 26 - Steuerassistent</h4>
+				Mein politisches Interesse wurde besonders durch meinen Opa geweckt, der bereits lange Zeit im
+				Moosburger Stadtrat vertreten war. Bisher konnte ich mich mit keiner Partei identifizieren, doch jetzt
+				habe ich mit Fresh endlich eine Plattform gefunden, bei der es um das Interesse der Moosburger Politik
+				geht. Für mich ist es besonders wichtig, dass wir eine transparente und verständliche Politik betreiben
+				und die Meinung der Bürger vertreten. Mithilfe der Digitalisierung soll dies viel leichter umgesetzt
+				werden. Eine nutzerfreundliche Homepage, leichter Zugang zu Stadtratsbeschlüssen und digitale
+				Meinungsumfragen sind die Eckpfeiler dafür. Auch das Leben in Moosburg soll qualitativer werden, dazu
+				gehören der Ausbau des ÖPNV, eine barrierefreie Innenstadt und ein nachhaltiges Stadtwachstum. Jeder
+				soll sich in Moosburg wohl fühlen.
+			</div>
 			<div class="candidate">
 				<img alt="" id="c3" onclick="toggleVisibility(3)" src="pictures/candidates/Frey.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(3)">Marco Frey - 32</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(3)">Marco <br> Frey</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr2 tr1 dr1" id="desc3" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr2 tr1 dr1" id="desc3" style="display: none;">
+				<h4>Marco Frey - 32 - Diplom-Finanzwirt</h4>
+				<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
+				<!--				invidunt ut-->
+				<!--				labore-->
+				<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
+				<!--				dolores et ea-->
+				<!--				rebum.-->
+				<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
+				<!--				ipsum dolor-->
+				<!--				sit-->
+				<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
+				<!--				dolore magna-->
+				<!--				aliquyam erat, sed diam voluptua.-->
+			</div>
 			<div class="candidate">
 				<img alt="" id="c4" onclick="toggleVisibility(4)" src="pictures/candidates/Gruebl.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(4)">Julian Grübl - 25</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(4)">Julian <br> Grübl</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr2 tr2 dr1" id="desc4" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr2 tr2 dr1" id="desc4" style="display: none;">
+				<h4>Julian Grübl - 25 - Einkäufer</h4>
+				<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
+				<!--				invidunt ut-->
+				<!--				labore-->
+				<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
+				<!--				dolores et ea-->
+				<!--				rebum.-->
+				<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
+				<!--				ipsum dolor-->
+				<!--				sit-->
+				<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
+				<!--				dolore magna-->
+				<!--				aliquyam erat, sed diam voluptua.-->
+			</div>
 			<div class="candidate">
 				<img alt="" id="c5" onclick="toggleVisibility(5)" src="pictures/candidates/Gruber.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(5)">Benedict Gruber - 26</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(5)">Benedict <br> Gruber</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr3 tr2 dr2" id="desc5" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr3 tr2 dr2" id="desc5" style="display: none;">
+				<h4>Benedict Gruber - 26 - Student ( Master Informatik )</h4>
+				Meine erste Wahlkampferfahrung machte ich 2014 auf einer Parteiliste. Für mich war klar, dass ich das so
+				nicht noch einmal will. Politik muss transparent und verständlich sein. Besonders, wenn es um die eigene
+				Stadt oder Gemeinde geht, sollte jeder Bürger mitreden dürfen. Als Informatiker möchte ich das vor allem
+				durch weitere digitale Tools erreichen. Ob das nun ein Livestream der Sitzungen, oder eine YouTube
+				Sprechstunde mit dem Bürgermeister ist. Je leichter es ist, sich zu beteiligen, desto mehr Bürger werden
+				es tun.
+			</div>
 			<div class="candidate">
 				<img alt="" id="c6" onclick="toggleVisibility(6)" src="pictures/candidates/Neumayr.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(6)">Julia Neumayr - 29</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(6)">Julia <br> Neumayr</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr3 tr2 dr2" id="desc6" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr3 tr2 dr2" id="desc6" style="display: none;">
+				<h4>Julia Neumayr - 29 - Grafikdesignerin</h4>
+				Mir liegt es besonders am Herzen, unsere wunderschöne Moosburger Natur zu schützen und zu erhalten und
+				so den nächsten Generationen eine naturverbundene Kindheit zu ermöglichen. Außerdem darf die Politik in
+				Moosburg nicht länger ein Mysterium bleiben, das ein paar wenigen vorbehalten ist. Politik muss nahbar,
+				transparent und leicht zugänglich für jeden sein! Und dazu brauchen wir für Moosburg neue Ideen, neue
+				Meinungen und neue Ansätze. Ich kann mich mitreissen lassen, genauso wie ich andere für meine Ideen
+				begeistern kann. Ich kann mich reinsteigern, gestalten, wertschätzen, kombinieren, anpacken und
+				genießen. Wenn ich für eine Sache brenne, dann lichterloh. Pack mas gemeinsam an und machen unsere
+				kleine Moosburger Welt zur schönsten, die ma ham!
+			</div>
 			<div class="candidate">
 				<img alt="" id="c7" onclick="toggleVisibility(7)" src="pictures/candidates/Rittirsch.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(7)">Farina Rittirsch - 24</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(7)">Farina <br> Rittirsch</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr4 tr3 dr2" id="desc7" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr4 tr3 dr2" id="desc7" style="display: none;">
+				<h4>Farina Rittirsch - 25 - Studentin ( Lehramt )</h4>
+				Ich studiere Lehramt für Grundschule an der LMU und arbeite nebenbei als Werkstudentin im Recruiting.
+				Jeden Tag pendle ich nach München, weil mir letztlich nach 9 Monaten München zu Beginn meines Studiums
+				klar wurde, dass ich nach Moosburg gehöre ist.
+				Seit der 6. Klasse ist es das Zentrum meines kulturellen und sozialen Lebens: Abende im Hirschn,
+				Nachmittage an der Amper u.v.m. machten es zu meinem Zuhause. Seit nun 6 Jahren ist Moosburg auch
+				offiziell mein Zuhause. Ich sehe unglaublich viel Potenzial in unserer wunderbaren 3-Gewässer-Stadt und
+				möchte mich nun - unabhängig von etablierten Parteien, bei denen ich bisher nie ein Zuhause gefunden
+				habe - dabei beteiligen, es optimal zu nutzen.
+
+			</div>
 			<div class="candidate">
 				<img alt="" id="c8" onclick="toggleVisibility(8)" src="pictures/candidates/Hobmaier.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(8)">Michael Hobmaier - 22</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(8)">Michael <br> Hobmaier</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr4 tr3 dr2" id="desc8" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr4 tr3 dr2" id="desc8" style="display: none;">
+				<h4>Michael Hobmaier - 22 - Student ( Rechtswissenschaften )</h4>
+				In Moosburg geboren und aufgewachsen tut es mir weh zu beobachten, wie die Stadt Jahr für Jahr
+				unpersönlicher wird. Moosburg sollte uns allen eine Heimat sein, in der wir glücklich sind und die uns
+				miteinander verbindet. Deshalb möchte ich mich einsetzen für eine lebendige Innenstadt mit Restaurants,
+				Cafés und Möglichkeiten zum Bummeln, ein aktives Vereinsleben, Sportangebote, kulturelle Veranstaltungen
+				und Stadtfeste.
+				Damit auch die nächste Generation in Moosburg Heimat finden kann, ist mir außerdem ein kontrolliertes,
+				planvolles Wachstum Moosburgs, sowie der Erhalt unserer Natur wichtig.
+			</div>
 			<div class="candidate">
 				<img alt="" id="c9" onclick="toggleVisibility(9)" src="pictures/candidates/Schierenberg.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(9)">Sarah Schierenberg - 25</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(9)">Sarah <br> Schierenberg</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr5 tr3 dr3" id="desc9" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr5 tr3 dr3" id="desc9" style="display: none;">
+				<h4>Sarah Schierenberg - 25 - Kinderpflegerin</h4>
+				Ich arbeite als Kinderpflegerin in Freising und wohne jetzt seit 3 Jahren in der Neustadt. Moosburg war
+				schon immer ein kleines Zuhause für mich. Ich wurde noch im Moosburger Krankenhaus geboren und habe hier
+				meine Jugend verbracht. Während meiner Zeit in Moosburg sind mir einige Dinge aufgefallen, die man
+				ändern oder verbessern könnte. Durch "Fresh" wird ein überparteiliches Sprachrohr der Jugend in Moosburg
+				geboten und ich kann meine wichtigsten Anliegen wie die kulturellen Angebote, Sicherheit für Familien im
+				Straßenverkehr und eine saubere Umwelt anbringen um etwas zu verändern! Ich möchte einen Teil dazu
+				beitragen, unser Moosburg schöner, lebenswerter und aufregender zu gestalten.
+			</div>
 			<div class="candidate">
 				<img alt="" id="c10" onclick="toggleVisibility(10)" src="pictures/candidates/Berger.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(10)">Jakob Berger - 21</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(10)">Jakob <br> Berger</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr5 tr4 dr3" id="desc10" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr5 tr4 dr3" id="desc10" style="display: none;">
+				<h4>Jakob Berger - 21 - Student ( Landschaftsarchitektur )</h4>
+				In meinem Bachelorstudium der Landschaftsarchitektur merkte ich bereits im ersten Semester, wie wichtig
+				eine funktionierende, lebendige und verknüpfte
+				Stadtstruktur für ein schönes Stadtklima ist. Besonders geprägt hat mich meine Lehre als Metallbauer mit
+				Fachrichtung Gestaltung in Moosburg. Einige Aufträge in der Stadt, in der ich schon fast mein ganzes
+				Leben lang wohne, machten mir klar, dass vieles verbessert werden kann.
+				Besonders ein grüneres und Autofreieres
+				Moosburg ist eine gute Grundlage um positiv in die Zukunft zu starten. "FRESH"
+				Ist ideal, um jüngeren Wählern die Möglichkeit zur aktiven Teilnahme an der Kommunalpolitik und damit
+				das aktive Gestalten der Moosburger Zukunft zu ermöglichen
+
+			</div>
 			<div class="candidate">
 				<img alt="" id="c11" onclick="toggleVisibility(11)" src="pictures/candidates/Eder.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(11)">Pascal Eder - 20</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(11)">Pascal <br> Eder</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr6 tr4 dr3" id="desc11" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr6 tr4 dr3" id="desc11" style="display: none;">
+				<h4>Pascal Eder - 20 - Mechatroniker</h4>
+				Ich lebe in Moosburg schon mein ganzes Leben und sehe viele Dinge, die man verbessern könnte. Wie zb.
+				Mehr Aschenbecher und Mülleimer an stark belebten Orten der Stadt, um unsere schöne Umwelt zu schützen.
+				Als Jüngster dieser Liste finde ich es Schade das sich nicht mehr Moosburger in meinem Alter politisch
+				engagieren, was ich ebenfalls ändern will, die Politik in Moosburg sollte transparent sein und
+				ansprechend für viele. Die Junge Generation lebt das digitale Zeitalter also wieso nicht die Politik
+				auch etwas Digitalisieren? In Form eines digitalen Rathauses 4.0. Ich kenne viele Junge Leute und viele
+				kennen mich, ich möchte den Jungen Moosburgern ein offenes Ohr für ihre Probleme bieten, da wir noch
+				lange hier leben und sie auch die Macken der Stadt sehen. Vielleicht interessiert sich auch so mancher
+				ein bisschen für Politik oder wird durch uns “wachgerüttelt” und will selbst politisch aktiv werden oder
+				möchte sich uns anschließen.
+			</div>
 			<div class="candidate">
 				<img alt="" id="c12" onclick="toggleVisibility(12)" src="pictures/candidates/Lorentschk.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(12)">Michael Lorentschk - 24</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(12)">Michael <br> Lorentschk</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr6 tr4 dr3" id="desc12" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr6 tr4 dr3" id="desc12" style="display: none;">
+				<h4>Michael Lorentschk - 24 - Student ( Medizintechnik ) </h4>
+				Als Masterstudent der Ingenieurswissenschaften und parallel Werkstudent in einer interdisziplinären
+				Prototypenwerkstatt ist es für mich selbstverständlich, dass Leute – egal welcher Art und Gruppe –
+				sachbezogen, iterativ und kommunikativ zusammenarbeiten. Ich wünsche mir das auch auf der Kommunalebene
+				der ganz konkreten Themen in Moosburg: dass verschiedene Perspektiven und Hintergründe alle gemeinsam
+				daran arbeiten, gute Lösungen für unseren Lebensraum in allen Aspekten zu finden. Hemmschwellen senken
+				zur Information (verständliche Kurzfassungen von Sitzungen) und Teilnahme (z.B. digitale Meinungsbilder
+				als weitere Diskussionsgrundlage) sind Ansätze, die integriert werden könnten.
+			</div>
 			<div class="candidate">
 				<img alt="" id="c13" onclick="toggleVisibility(13)" src="pictures/candidates/Bayerkoehler.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(13)">Felix Bayerköhler - 26</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(13)">Felix <br> Bayerköhler</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr7 tr5 dr4" id="desc13" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr7 tr5 dr4" id="desc13" style="display: none;">
+				<h4>Felix Bayerköhler - 26 - Student ( Lebnsmittelchemie ) </h4>
+				Ich bin in Moosburg aufgewachsen und verfolge seit über 10 Jahren das Politikgeschehen, allerdings eher
+				auf Bundes- oder internationaler Ebene. Deshalb ist mir lange nicht aufgefallen, wie es bei mir direkt
+				vor der Haustür politisch aussieht. ‚‚Passt schon”, ‚‚Uns geht es doch gut, so nah bei München”, das war
+				meistens meine Ansicht über die Moosburger Kommunalpolitik . In den letzten Jahren hat sich jedoch immer
+				mehr ein unbestimmtes Gefühl, dass es irgendwie besser laufen könnte mit meiner Heimatstadt,
+				eingeschlichen. Aus diesem Gefühl ist für mich ein leidenschaftliches Interesse für unsere Stadt
+				entstanden. Ich denke es geht vielen Menschen so, dass sie nicht genau sagen können, was überhaupt auf
+				kommunaler Ebene abläuft. Deshalb setze mich für mehr Transparenz und Informationsfluss ein. Meiner
+				Meinung nach sollte es die Aufgabe der Gemeinde sein die Hemmschwelle für politische Beteiligung der
+				Bürger so niedrig, wie möglich zu halten. Das ist über viele Wege möglich, seien es ein kurzer
+				verständlicher Newsletter über Stadtratsbeschlüsse und anstehende Projekte oder kurze Meinungsumfragen
+				zu wichtigen Themen. Ein weiteres Thema , das mir am Herzen liegt ist Stadtentwicklung.Weitere
+				Vergrößerung ohne Zukunftsvision ist keine Option. Moosburg muss sich klar werden, wie es in 10, 20 oder
+				50 Jahren aussehen will, um somit auch in Zukunft eine lebenswerte und liebenswerte Stadt zu bleiben.
+			</div>
 			<div class="candidate">
 				<img alt="" id="c14" onclick="toggleVisibility(14)" src="pictures/candidates/Schweitzer.jpg">
 				<div class="candidate_info">
-					<div class="candidate_info_text" onclick="toggleVisibility(14)">Patrick Schweitzer - 25</div>
+					<div class="candidate_info_text" onclick="toggleVisibility(14)">Patrick <br> Schweitzer</div>
 				</div>
 			</div>
-			<!--			<div class="candidate_description mr7 tr5 dr4" id="desc14" style="display: none;">-->
-			<!--				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor-->
-			<!--				invidunt ut-->
-			<!--				labore-->
-			<!--				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo-->
-			<!--				dolores et ea-->
-			<!--				rebum.-->
-			<!--				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem-->
-			<!--				ipsum dolor-->
-			<!--				sit-->
-			<!--				amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et-->
-			<!--				dolore magna-->
-			<!--				aliquyam erat, sed diam voluptua.-->
-			<!--			</div>-->
+			<div class="candidate_description mr7 tr5 dr4" id="desc14" style="display: none;">
+				<h4>Patrick Schweitzer - 25 - Fachinformatiker in der Ausbildung</h4>
+				Ich bin hier in moosburg aufgewachsen, durfte hier meine kindheit und Jugend verbringen und habe so
+				diese Stadt ins Herz geschlossen.
+				In den letzten Jahren wurde aber immer deutlicher, dass die Moosburger Stadtpolitik auf die
+				Herausforderungen der Zukunft nicht oder nicht gut und schnell genug reagiert. Investoren geben was
+				Wohnungsbau den Ton an. Gewerbegebiete sind nicht in städtischer Hand und die Stadt ist vom Gutdünken
+				der Grundstückseigentümer abhängig. Schulen, Kindergärten und KiTas platzen aus allen Nähten.
+				Das will ich wieder ändern. Moosburg muss und kann zu einer Stadt werden die wieder agiert und nicht nur
+				reagiert. Ich möchte mit Moosburg in die zukunft gehen, nicht stolpern.
+
+			</div>
 
 
-			<!--			<script>-->
-			<!--				function toggleVisibility(id) {-->
-			<!--					let elem = document.getElementById("desc" + id);-->
+			<script>
+				function toggleVisibility(id) {
+					let elem = document.getElementById("desc" + id);
 
-			<!--					for (let i = 1; i < 15; i++) {-->
-			<!--						if (i != id) {-->
-			<!--							let reset_element           = document.getElementById("desc" + i);-->
-			<!--							reset_element.style.display = 'none';-->
-			<!--						}-->
-			<!--					}-->
+					for (let i = 1; i < 15; i++) {
+						if (i !== id) {
+							let reset_element           = document.getElementById("desc" + i);
+							reset_element.style.display = 'none';
+						}
+					}
 
-			<!--					elem.style.display = elem.style.display === 'none' ? '' : 'none';-->
-			<!--				}-->
-			<!--			</script>-->
+					elem.style.display = elem.style.display === 'none' ? '' : 'none';
+				}
+			</script>
 		</div>
 	</div>
 
@@ -534,7 +514,7 @@
 		<div class="content_frame">
 			<a class="anchor" id="contact_anchor"></a>
 			<div class="flex_row contact_row">
-				<div>
+				<div data-aos="zoom-in">
 					<a href="https://www.facebook.com/fresh.moosburg/"
 					   rel="noreferrer noopener"
 					   target="_blank"
@@ -562,7 +542,7 @@
 						<div class="image_text">Facebook</div>
 					</a>
 				</div>
-				<div>
+				<div data-aos="zoom-in">
 					<a href="https://www.instagram.com/fresh.moosburg/ "
 					   rel="noreferrer noopener"
 					   target="_blank"
@@ -599,7 +579,7 @@
 						<div class="image_text">Instagram</div>
 					</a>
 				</div>
-				<div>
+				<div data-aos="zoom-in">
 					<a href="mailto:fresh.moosburg@gmail.com" rel="noreferrer noopener" target="_blank">
 						<svg enable-background="new 0 0 100 100"
 							 height="100px"
@@ -661,5 +641,10 @@
 	</div>
 
 </div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>
 </body>
 </html>
