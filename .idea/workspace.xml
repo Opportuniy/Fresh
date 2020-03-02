@@ -144,7 +144,7 @@
       <workItem from="1581948022672" duration="434000" />
       <workItem from="1581951324949" duration="2460000" />
       <workItem from="1582104309500" duration="641000" />
-      <workItem from="1583172074428" duration="9379000" />
+      <workItem from="1583172074428" duration="9427000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit attempt no.2">
       <created>1580073951355</created>
@@ -461,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583181027677</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Kandidaten - Grübl Text">
+      <created>1583181471119</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1583181471119</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,13 +547,13 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1583181027121">
+    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1583181470558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581952526164" />
     <state x="2394" y="130" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313304778" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581499435968" />
-    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583181027121" />
+    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583181470558" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
     <state x="184" y="92" width="1536" height="858" key="DiffContextDialog" timestamp="1583178197991">
       <screen x="0" y="0" width="1920" height="1040" />
