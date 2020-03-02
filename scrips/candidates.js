@@ -1,4 +1,9 @@
 function toggleVisibility(id) {
+	toggleText(id);
+	flipCard();
+}
+
+const toggleText = id => {
 	let elem = document.getElementById("desc" + id);
 
 	for (let i = 1; i < 15; i++) {
@@ -9,4 +14,8 @@ function toggleVisibility(id) {
 	}
 
 	elem.style.display = elem.style.display === 'none' ? '' : 'none';
-}
+};
+
+const flipCard = id => {
+
+};

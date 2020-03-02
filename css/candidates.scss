@@ -28,6 +28,8 @@ h4 {
   grid-column-gap       : 1vw;
   grid-row-gap          : 1vw;
   grid-template-columns : 1fr 1fr;
+  padding-left          : 2vw;
+  padding-right         : 2vw;
 
   //justify-content       : center;
   //justify-items         : center;
@@ -41,15 +43,10 @@ h4 {
   }
 
 .candidate {
-  height   : 98%;
-  position : relative;
+  height : 98%;
+  //position : relative;
+  width  : 100%;
 
-  width    : 100%;
-
-  img {
-	//max-width : 350px;
-	width : 100%;
-	}
   }
 
 .candidate_info {
@@ -67,7 +64,7 @@ h4 {
 
 .candidate_info_text {
   left              : 50%;
-  position          : absolute;
+  //position          : absolute;
   text-align        : center;
   top               : 50%;
   -ms-transform     : translate(-50%, -50%);
@@ -86,6 +83,54 @@ h4 {
 ////  margin-top       : 1vh;
 ////  width            : 92%;
 ////  }
+
+
+.card {
+  cursor          : pointer;
+  //height          : 45vw;
+  //max-height      : 286px;
+  //max-width       : 286px;
+  position        : relative;
+  transform-style : preserve-3d;
+  transition      : .4s ease-in-out;
+  //width           : 45vw;
+
+  img {
+	max-width : 286px;
+	width     : 100%;
+	}
+
+  .front {
+	backface-visibility : hidden;
+	//background-color    : white;
+	//width               : 100%;
+	//left                : 0;
+	//position            : absolute; //ERR: TODO: Das ist das Problem!!
+	//top                 : 0;
+	transform           : rotateY(0);
+
+	}
+
+  .back {
+	backface-visibility : hidden;
+	left                : 0;
+	position            : absolute;
+	top                 : 0;
+	transform           : rotateY(-180deg);
+	}
+  }
+
+//.card .inside {
+//  background      : white;
+//  height          : 100%;
+//  transform-style : preserve-3d;
+//  transition      : .4s ease-in-out;
+//  width           : 100%;
+//  }
+
+.picked {
+  transform : rotateY(180deg);
+  }
 
 
 .candidate_description {
