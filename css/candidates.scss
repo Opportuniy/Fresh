@@ -59,8 +59,8 @@ h4 {
 	width  : 31vw;
 	}
   @media screen and (min-width : base.$breakpoint_desktop) {
-	height : 47vw;
-	width  : 47vw;
+	height : 23vw;
+	width  : 23vw;
 	}
   }
 
@@ -103,21 +103,21 @@ h4 {
 
 .card {
   cursor          : pointer;
-  height          : 46vw;
-  max-height      : 286px;
-  max-width       : 286px;
-  min-width       : 100px;
+  //height          : 46vw;
+  //max-height      : 286px;
+  //max-width       : 286px;
+  //min-width       : 100px;
   position        : relative;
   transform-style : preserve-3d;
   transition      : .4s ease-in-out;
-  width           : 46vw;
+  //width           : 46vw;
   @media screen and (min-width : base.$breakpoint_tablet) {
-	height : 31vw;
-	width  : 31vw;
+	//height : 31vw;
+	//width  : 31vw;
 	}
   @media screen and (min-width : base.$breakpoint_desktop) {
-	height : 47vw;
-	width  : 47vw;
+	//height : 47vw;
+	//width  : 47vw;
 	}
 
   img {

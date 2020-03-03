@@ -52,9 +52,9 @@ h4 {
 }
 @media screen and (min-width: 900px) {
   .candidate {
-    height: 47vw;
-    width: 47vw;
-  }
+	height : 23vw;
+	width  : 23vw;
+	}
 }
 
 .candidate_info {
@@ -86,27 +86,10 @@ h4 {
 
 .card {
   cursor          : pointer;
-  height          : 46vw;
-  max-height      : 286px;
-  max-width       : 286px;
-  min-width       : 100px;
   position        : relative;
   transform-style : preserve-3d;
   transition      : 0.4s ease-in-out;
-  width           : 46vw;
   }
-@media screen and (min-width: 600px) {
-  .card {
-    height: 31vw;
-    width: 31vw;
-  }
-}
-@media screen and (min-width: 900px) {
-  .card {
-    height: 47vw;
-    width: 47vw;
-  }
-}
 .card img {
   width: 100%;
 }
