@@ -52,6 +52,7 @@ h4 {
   max-width  : 286px;
   min-height : 100px;
   min-width  : 150px;
+  position   : relative;
   width      : 46vw;
   @media screen and (min-width : base.$breakpoint_tablet) {
 	height : 31vw;
@@ -79,7 +80,7 @@ h4 {
 
 .candidate_info_text {
   left              : 50%;
-  //position          : absolute;
+  position          : absolute;
   text-align        : center;
   top               : 50%;
   -ms-transform     : translate(-50%, -50%);
