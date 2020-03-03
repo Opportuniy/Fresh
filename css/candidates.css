@@ -36,8 +36,24 @@ h4 {
 }
 
 .candidate {
-  height: 98%;
-  width: 100%;
+  height: 46vw;
+  max-height: 286px;
+  max-width: 286px;
+  min-height: 100px;
+  min-width: 100px;
+  width: 46vw;
+}
+@media screen and (min-width: 600px) {
+  .candidate {
+    height: 31vw;
+    width: 31vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .candidate {
+    height: 47vw;
+    width: 47vw;
+  }
 }
 
 .candidate_info {
@@ -50,6 +66,7 @@ h4 {
   right: 0;
   transition: 0.5s ease;
   width: 100%;
+  z-index: 10;
 }
 
 .candidate_info_text {
@@ -67,27 +84,50 @@ h4 {
 
 .card {
   cursor: pointer;
+  height: 46vw;
+  max-width: 286px;
+  min-width: 100px;
   position: relative;
   transform-style: preserve-3d;
   transition: 0.4s ease-in-out;
+  width: 46vw;
+}
+@media screen and (min-width: 600px) {
+  .card {
+    height: 31vw;
+    width: 31vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .card {
+    height: 47vw;
+    width: 47vw;
+  }
 }
 .card img {
-  max-width: 286px;
   width: 100%;
 }
 .card .front {
   backface-visibility: hidden;
+  background-color: white;
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 0;
   transform: rotateY(0);
+  width: 100%;
 }
 .card .back {
   backface-visibility: hidden;
+  height: auto;
   left: 0;
   position: absolute;
   top: 0;
   transform: rotateY(-180deg);
+  width: 100%;
 }
 
-.picked {
+.selected {
   transform: rotateY(180deg);
 }
 

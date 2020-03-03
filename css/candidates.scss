@@ -1,9 +1,12 @@
 @use "base";
 
+$extra_width : 300px;
+
+
 #candidates {
   background-color : base.$color_background;
   margin           : auto;
-  max-width        : base.$breakpoint_desktop + 300px;
+  max-width        : base.$breakpoint_desktop + $extra_width;
 
   padding-bottom   : 15vh;
 
@@ -40,13 +43,24 @@ h4 {
 	grid-template-columns : 1fr 1fr 1fr 1fr;
 	}
 
+
   }
 
 .candidate {
-  height : 98%;
-  //position : relative;
-  width  : 100%;
-
+  height     : 46vw;
+  max-height : 286px;
+  max-width  : 286px;
+  min-height : 100px;
+  min-width  : 100px;
+  width      : 46vw;
+  @media screen and (min-width : base.$breakpoint_tablet) {
+	height : 31vw;
+	width  : 31vw;
+	}
+  @media screen and (min-width : base.$breakpoint_desktop) {
+	height : 47vw;
+	width  : 47vw;
+	}
   }
 
 .candidate_info {
@@ -60,6 +74,7 @@ h4 {
   right            : 0;
   transition       : .5s ease;
   width            : 100%;
+  z-index          : 10;
   }
 
 .candidate_info_text {
@@ -87,36 +102,48 @@ h4 {
 
 .card {
   cursor          : pointer;
-  //height          : 45vw;
+  height          : 46vw;
   //max-height      : 286px;
   //max-width       : 286px;
+  max-width       : 286px;
+  min-width       : 100px;
   position        : relative;
   transform-style : preserve-3d;
   transition      : .4s ease-in-out;
-  //width           : 45vw;
+  width           : 46vw;
+  @media screen and (min-width : base.$breakpoint_tablet) {
+	height : 31vw;
+	width  : 31vw;
+	}
+  @media screen and (min-width : base.$breakpoint_desktop) {
+	height : 47vw;
+	width  : 47vw;
+	}
 
   img {
-	max-width : 286px;
-	width     : 100%;
+	width : 100%;
 	}
 
   .front {
 	backface-visibility : hidden;
-	//background-color    : white;
-	//width               : 100%;
-	//left                : 0;
-	//position            : absolute; //ERR: TODO: Das ist das Problem!!
-	//top                 : 0;
+	background-color    : white;
+	height              : auto;
+	left                : 0;
+	position            : absolute; // TODO: Das ist das Problem!!
+	top                 : 0;
 	transform           : rotateY(0);
+	width               : 100%;
 
 	}
 
   .back {
 	backface-visibility : hidden;
+	height              : auto;
 	left                : 0;
 	position            : absolute;
 	top                 : 0;
 	transform           : rotateY(-180deg);
+	width               : 100%;
 	}
   }
 
@@ -128,7 +155,7 @@ h4 {
 //  width           : 100%;
 //  }
 
-.picked {
+.selected {
   transform : rotateY(180deg);
   }
 
