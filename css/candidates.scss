@@ -51,7 +51,7 @@ h4 {
   max-height : 286px;
   max-width  : 286px;
   min-height : 100px;
-  min-width  : 100px;
+  min-width  : 150px;
   width      : 46vw;
   @media screen and (min-width : base.$breakpoint_tablet) {
 	height : 31vw;
@@ -126,7 +126,6 @@ h4 {
 
   .front {
 	backface-visibility : hidden;
-	background-color    : white;
 	height              : auto;
 	left                : 0;
 	position            : absolute; // TODO: Das ist das Problem!!
