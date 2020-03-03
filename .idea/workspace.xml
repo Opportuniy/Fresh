@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/css/candidates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/candidates.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/candidates.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,14 +150,7 @@
       <workItem from="1583172074428" duration="15942000" />
       <workItem from="1583221342382" duration="7689000" />
       <workItem from="1583229727390" duration="907000" />
-      <workItem from="1583230648289" duration="892000" />
-    </task>
-    <task id="LOCAL-00004" summary="Version A besprochen am 07.02.2020 im 3 Tannen">
-      <created>1581108456759</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1581108456759</updated>
+      <workItem from="1583230648289" duration="1100000" />
     </task>
     <task id="LOCAL-00005" summary="Version A besprochen am 07.02.2020 im 3 Tannen">
       <created>1581108638876</created>
@@ -496,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583230186079</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Drehanimation&#10;Änderung Julian Grübl">
+      <created>1583231573381</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1583231573383</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed:&#10;&#10;head_anchor" />
     <MESSAGE value="fixed:&#10;&#10;favicon" />
     <MESSAGE value="option2.html" />
     <MESSAGE value="option2.html&#10;&#10;fill" />
@@ -551,7 +549,8 @@
     <MESSAGE value="Kandidaten - Moosburg falsch geschrieben" />
     <MESSAGE value="Kandidaten - Wittman korrigiert.&#10;Js - file erstellt" />
     <MESSAGE value="Erste Drehanimation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Erste Drehanimation" />
+    <MESSAGE value="Drehanimation&#10;Änderung Julian Grübl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drehanimation&#10;Änderung Julian Grübl" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -575,11 +574,11 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="2394" y="118" key="CommitChangelistDialog2" timestamp="1583230134772">
+    <state x="2394" y="118" key="CommitChangelistDialog2" timestamp="1583231572089">
       <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581952526164" />
-    <state x="2394" y="118" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583230134772" />
+    <state x="2394" y="118" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583231572089" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581499435968" />
     <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583188130245" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
@@ -696,11 +695,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="282" key="Vcs.Multiple.Commit.Info.Dialog.Key/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583173327523" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1583188144412">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2358" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583231576409">
+      <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581952529898" />
-    <state x="2358" y="251" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313327928" />
+    <state x="2358" y="251" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583231576409" />
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939@0.0.1739.939" timestamp="1581108643129" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583188144412" />
     <state x="2472" y="256" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193071019" />
