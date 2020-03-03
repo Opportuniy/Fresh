@@ -2,7 +2,8 @@
 
 
 #impressum {
-  color : base.$color_gray;
+  color           : base.$color_gray;
+  justify-content : space-evenly;
 
   h2 {
 	padding    : 3vh 0;
@@ -12,5 +13,12 @@
 
 .impressum {
   margin : auto;
-  width  : 80%;
+
+  a {
+	color : base.$color_turquoise;
+	}
+
+  a:active, a:visited {
+	color : base.$color_magenta;
+	}
   }

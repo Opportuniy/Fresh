@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/candidates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/candidates.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/candidates.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/impressum.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/impressum.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/impressum.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/impressum.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/impressum.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/impressum.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,13 +153,6 @@
       <workItem from="1583221342382" duration="7689000" />
       <workItem from="1583229727390" duration="907000" />
       <workItem from="1583230648289" duration="1100000" />
-    </task>
-    <task id="LOCAL-00006" summary="Umstrukturierung der Webseite,&#10;&#10;TODO: grid weg?">
-      <created>1581114932253</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1581114932253</updated>
     </task>
     <task id="LOCAL-00007" summary="CSS strukturiert.&#10;&#10;Grid mit Breite 1 erhalten">
       <created>1581163512621</created>
@@ -496,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583234220241</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="fixed Card size">
+      <created>1583235686494</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1583235686494</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="option2.html" />
     <MESSAGE value="option2.html&#10;&#10;fill" />
     <MESSAGE value="LIVE COMMIT" />
     <MESSAGE value="donate text" />
@@ -551,7 +551,8 @@
     <MESSAGE value="Erste Drehanimation" />
     <MESSAGE value="Drehanimation&#10;Änderung Julian Grübl" />
     <MESSAGE value="hover working" />
-    <option name="LAST_COMMIT_MESSAGE" value="hover working" />
+    <MESSAGE value="fixed Card size" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed Card size" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -575,11 +576,11 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="2394" y="118" key="CommitChangelistDialog2" timestamp="1583234219042">
+    <state x="2394" y="118" key="CommitChangelistDialog2" timestamp="1583237582489">
       <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581952526164" />
-    <state x="2394" y="118" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583234219042" />
+    <state x="2394" y="118" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583237582489" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581499435968" />
     <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583188130245" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
@@ -594,11 +595,11 @@
     <state x="543" y="289" key="EditFileWatcherDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581320083649" />
     <state x="543" y="289" key="EditFileWatcherDialog/0.0.1739.939@0.0.1739.939" timestamp="1580123428388" />
     <state x="599" y="320" key="EditFileWatcherDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580072967732" />
-    <state x="670" y="252" key="FileChooserDialogImpl" timestamp="1583228650783">
-      <screen x="0" y="0" width="1739" height="939" />
+    <state x="2506" y="271" key="FileChooserDialogImpl" timestamp="1583237287589">
+      <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="670" y="252" key="FileChooserDialogImpl/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1583228650783" />
-    <state x="2506" y="271" key="FileChooserDialogImpl/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580368904089" />
+    <state x="2506" y="271" key="FileChooserDialogImpl/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583237287589" />
     <state x="670" y="252" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1581174385383" />
     <state x="740" y="279" key="FileChooserDialogImpl/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583183839361" />
     <state x="2660" y="278" key="FileChooserDialogImpl/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581185705880" />

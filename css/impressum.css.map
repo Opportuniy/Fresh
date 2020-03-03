@@ -3,6 +3,6 @@
   "sourceRoot": "",
   "sources": ["_base.scss", "impressum.scss"],
   "names": [],
-  "mappings": "AAAQ;AACA;ACER;EACE,ODGqB;;ACDrB;EACD;EACA;;;AAID;EACE;EACA",
+  "mappings": "AAAQ;AACA;ACER;EACE,ODGqB;ECFrB;;AAEA;EACD;EACA;;;AAID;EACE;;AAEA;EACD,ODXsB;;ACcrB;EACD,ODhBsB",
   "file": "impressum.css"
 }
