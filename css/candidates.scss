@@ -7,8 +7,9 @@ $extra_width : 300px;
   background-color : base.$color_background;
   margin           : auto;
   max-width        : base.$breakpoint_desktop + $extra_width;
-
   padding-bottom   : 15vh;
+  padding-left     : 2vw;
+  padding-right    : 2vw;
 
   //img {
   //  max-width : 900px;
@@ -31,8 +32,8 @@ h4 {
   grid-column-gap       : 1vw;
   grid-row-gap          : 1vw;
   grid-template-columns : 1fr 1fr;
-  padding-left          : 2vw;
-  padding-right         : 2vw;
+  //padding-left          : 2vw;
+  //padding-right         : 2vw;
 
   //justify-content       : center;
   //justify-items         : center;

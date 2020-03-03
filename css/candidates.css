@@ -5,6 +5,8 @@
   margin: auto;
   max-width: 1200px;
   padding-bottom: 15vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 #candidates h2 {
   color: #EEEEEE;
@@ -21,8 +23,6 @@ h4 {
   grid-column-gap: 1vw;
   grid-row-gap: 1vw;
   grid-template-columns: 1fr 1fr;
-  padding-left: 2vw;
-  padding-right: 2vw;
 }
 @media screen and (min-width: 600px) {
   .candidates_grid {
@@ -52,9 +52,9 @@ h4 {
 }
 @media screen and (min-width: 900px) {
   .candidate {
-	height : 23vw;
-	width  : 23vw;
-	}
+    height: 23vw;
+    width: 23vw;
+  }
 }
 
 .candidate_info {
@@ -85,11 +85,11 @@ h4 {
 }
 
 .card {
-  cursor          : pointer;
-  position        : relative;
-  transform-style : preserve-3d;
-  transition      : 0.4s ease-in-out;
-  }
+  cursor: pointer;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 0.4s ease-in-out;
+}
 .card img {
   width: 100%;
 }

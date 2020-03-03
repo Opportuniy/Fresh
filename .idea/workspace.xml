@@ -153,13 +153,6 @@
       <workItem from="1583229727390" duration="907000" />
       <workItem from="1583230648289" duration="1100000" />
     </task>
-    <task id="LOCAL-00010" summary="remove .idea">
-      <created>1581168335674</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1581168335674</updated>
-    </task>
     <task id="LOCAL-00011" summary="remove .idea">
       <created>1581168378340</created>
       <option name="number" value="00011" />
@@ -496,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583238796063</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Grid center candidates">
+      <created>1583240432889</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1583240432889</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="donate text" />
     <MESSAGE value="logo farbig" />
     <MESSAGE value="nav-menu farbe geändert !HARD CODE!&#10;&#10;mobile verbesserung kontakt" />
     <MESSAGE value="nav-menu farbe geändert die zweite" />
@@ -551,7 +550,8 @@
     <MESSAGE value="fixed Card size" />
     <MESSAGE value="Kandidaten Link, impressum" />
     <MESSAGE value="Kandidaten Link korrigiert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kandidaten Link korrigiert" />
+    <MESSAGE value="Grid center candidates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grid center candidates" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -575,11 +575,11 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="2394" y="118" key="CommitChangelistDialog2" timestamp="1583238795009">
+    <state x="2394" y="118" key="CommitChangelistDialog2" timestamp="1583240431818">
       <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581952526164" />
-    <state x="2394" y="118" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583238795009" />
+    <state x="2394" y="118" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583240431818" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581499435968" />
     <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583188130245" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
