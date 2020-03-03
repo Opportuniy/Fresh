@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/impressum.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/impressum.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/impressum.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/impressum.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/impressum.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/impressum.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="I:/7_Public/73_Transfer/Azubis/2019 Lahrjahr/PS_Memory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../APPS/produktdb" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -153,20 +150,6 @@
       <workItem from="1583221342382" duration="7689000" />
       <workItem from="1583229727390" duration="907000" />
       <workItem from="1583230648289" duration="1100000" />
-    </task>
-    <task id="LOCAL-00007" summary="CSS strukturiert.&#10;&#10;Grid mit Breite 1 erhalten">
-      <created>1581163512621</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1581163512621</updated>
-    </task>
-    <task id="LOCAL-00008" summary="kleine Korrekturen">
-      <created>1581167547961</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1581167547961</updated>
     </task>
     <task id="LOCAL-00009" summary="remove .idea">
       <created>1581168208887</created>
@@ -497,7 +480,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583235686494</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Kandidaten Link, impressum">
+      <created>1583237583499</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1583237583499</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Kandidaten Link, impressum">
+      <created>1583237606331</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1583237606331</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +524,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="option2.html&#10;&#10;fill" />
     <MESSAGE value="LIVE COMMIT" />
     <MESSAGE value="donate text" />
     <MESSAGE value="logo farbig" />
@@ -552,7 +548,8 @@
     <MESSAGE value="Drehanimation&#10;Änderung Julian Grübl" />
     <MESSAGE value="hover working" />
     <MESSAGE value="fixed Card size" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed Card size" />
+    <MESSAGE value="Kandidaten Link, impressum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kandidaten Link, impressum" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -576,11 +573,11 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="2394" y="118" key="CommitChangelistDialog2" timestamp="1583237582489">
+    <state x="2394" y="118" key="CommitChangelistDialog2" timestamp="1583237605256">
       <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581952526164" />
-    <state x="2394" y="118" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583237582489" />
+    <state x="2394" y="118" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583237605256" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581499435968" />
     <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583188130245" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
@@ -595,11 +592,11 @@
     <state x="543" y="289" key="EditFileWatcherDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581320083649" />
     <state x="543" y="289" key="EditFileWatcherDialog/0.0.1739.939@0.0.1739.939" timestamp="1580123428388" />
     <state x="599" y="320" key="EditFileWatcherDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580072967732" />
-    <state x="2506" y="271" key="FileChooserDialogImpl" timestamp="1583237287589">
+    <state x="2506" y="271" key="FileChooserDialogImpl" timestamp="1583238355709">
       <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="670" y="252" key="FileChooserDialogImpl/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1583228650783" />
-    <state x="2506" y="271" key="FileChooserDialogImpl/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583237287589" />
+    <state x="2506" y="271" key="FileChooserDialogImpl/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583238355709" />
     <state x="670" y="252" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1581174385383" />
     <state x="740" y="279" key="FileChooserDialogImpl/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583183839361" />
     <state x="2660" y="278" key="FileChooserDialogImpl/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581185705880" />
@@ -697,11 +694,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="282" key="Vcs.Multiple.Commit.Info.Dialog.Key/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583173327523" />
-    <state x="2358" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583234222439">
+    <state x="2358" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583237609595">
       <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581952529898" />
-    <state x="2358" y="251" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583234222439" />
+    <state x="2358" y="251" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583237609595" />
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939@0.0.1739.939" timestamp="1581108643129" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583188144412" />
     <state x="2472" y="256" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193071019" />
