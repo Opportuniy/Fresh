@@ -4,7 +4,6 @@
   color           : #EEEEEE;
   justify-content : space-evenly;
   }
-
 #impressum h2 {
   padding    : 3vh 0;
   text-align : center;
@@ -13,11 +12,9 @@
 .impressum {
   margin : auto;
   }
-
 .impressum a {
   color : #2FC1B9;
   }
-
 .impressum a:active, .impressum a:visited {
   color : #E0014D;
   }

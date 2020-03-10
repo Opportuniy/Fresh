@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 nav {
   background-color: #131B21;
@@ -31,6 +31,7 @@ nav {
   flex-direction: row;
   width: 100%;
 }
+
 @media screen and (min-width : 900px) {
   .nav_row .nav_left {
 	width : 20%;
@@ -51,9 +52,9 @@ nav {
 
 @media screen and (min-width : 900px) {
   .nav_row .nav_left .logo {
-    height       : 10vh;
-    padding-left : 10vw;
-    }
+	height       : 10vh;
+	padding-left : 10vw;
+	}
   }
 
 .nav_row .nav_right {
@@ -67,9 +68,9 @@ nav {
 
 @media screen and (min-width : 900px) {
   .nav_row .nav_right {
-    flex-direction : row;
-    width          : 80%;
-    }
+	flex-direction : row;
+	width          : 80%;
+	}
   }
 
 .nav_row .nav_right li {
@@ -82,8 +83,8 @@ nav {
   }
 @media screen and (min-width: 900px) {
   .nav_row .nav_hidden {
-    display : flex;
-    }
+	display : flex;
+	}
 }
 .nav_row a {
   color           : #2F4859;

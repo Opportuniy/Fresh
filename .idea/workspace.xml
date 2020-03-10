@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animations.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/candidates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/donate.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/donate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/donate.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/donate.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/impressum.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/impressum.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/impressum.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/impressum.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navigation.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/navigation.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/overview.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/overview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
