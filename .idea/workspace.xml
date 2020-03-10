@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="507aa5de-5e5d-4f76-8691-b5a349bd8d17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/candidates.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/candidates.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/candidates.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/candidates.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../APPS/produktdb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -152,13 +149,7 @@
       <workItem from="1583221342382" duration="7689000" />
       <workItem from="1583229727390" duration="907000" />
       <workItem from="1583230648289" duration="1100000" />
-    </task>
-    <task id="LOCAL-00011" summary="remove .idea">
-      <created>1581168378340</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1581168378340</updated>
+      <workItem from="1583826715371" duration="296000" />
     </task>
     <task id="LOCAL-00012" summary="before branch">
       <created>1581182720591</created>
@@ -496,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583240432889</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Grid center candidates">
+      <created>1583240599675</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1583240599675</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,11 +573,11 @@
     </state>
     <state x="722" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163565988" />
     <state x="2642" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581189978300" />
-    <state x="2394" y="118" key="CommitChangelistDialog2" timestamp="1583240431818">
+    <state x="2394" y="118" key="CommitChangelistDialog2" timestamp="1583240598577">
       <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="542" y="99" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581952526164" />
-    <state x="2394" y="118" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583240431818" />
+    <state x="2394" y="118" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583240598577" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581499435968" />
     <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583188130245" />
     <state x="2547" y="150" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193020818" />
@@ -696,11 +694,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="282" key="Vcs.Multiple.Commit.Info.Dialog.Key/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583173327523" />
-    <state x="2358" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583237609595">
+    <state x="2358" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583826755251">
       <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1581952529898" />
-    <state x="2358" y="251" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583237609595" />
+    <state x="2358" y="251" key="Vcs.Push.Dialog.v2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583826755251" />
     <state x="500" y="232" key="Vcs.Push.Dialog.v2/0.0.1739.939@0.0.1739.939" timestamp="1581108643129" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583188144412" />
     <state x="2472" y="256" key="Vcs.Push.Dialog.v2/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1581193071019" />
@@ -715,15 +713,17 @@
     <state x="2450" y="332" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583230647936" />
     <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1581493601225" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583172074762" />
-    <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583221656630">
-      <screen x="0" y="0" width="1739" height="939" />
+    <state x="2531" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583827009651">
+      <screen x="1920" y="26" width="1522" height="912" />
     </state>
     <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1583221656630" />
+    <state x="2531" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583827009651" />
     <state x="698" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939@0.0.1739.939" timestamp="1581173137452" />
     <state x="771" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581599411814" />
-    <state x="1920" y="-1" width="1618" height="1025" key="dock-window-1" timestamp="1581182884377">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state x="0" y="0" width="1466" height="926" key="dock-window-1" timestamp="1583826937707">
+      <screen x="0" y="0" width="1739" height="939" />
     </state>
+    <state x="0" y="0" width="1466" height="926" key="dock-window-1/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1583826937707" />
     <state x="1920" y="-1" width="1618" height="1025" key="dock-window-1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581182884377" />
     <state x="653" y="187" key="git4idea.branch.GitSmartOperationDialog" timestamp="1581343351735">
       <screen x="0" y="0" width="1739" height="939" />
